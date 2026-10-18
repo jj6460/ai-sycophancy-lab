@@ -6,7 +6,7 @@
 
 为了在设计 Study 4（真实交互实验）时更加清晰，下面从实验程序（Programmer/Researcher）的视角，看看在代码和系统后台是如何用这四种方法去"操纵"AI的。
 
-## 1. 语义与立场对齐操纵 → 对应后台的【初始设定】
+## 1. 语义与立场对齐操纵 → 对应后台的【初始设定】--证明温暖微调降低准确率提升谄媚，提示词的作用不太大
 
 **文献参考**：Ibrahim, L., Hafner, F. S., & Rocher, L. (2026). Training language models to be warm can reduce accuracy and increase sycophancy. *Nature*, 652, 1159–1165. https://doi.org/10.1038/s41586-026-10410-0
 

@@ -1,0 +1,33 @@
+study:
+  id: "study4_pilot"
+  mode: "development"
+  conditions:
+    - C0
+    - C1
+    - C2
+    - C3
+    - C4
+
+llm:
+  provider: "mock"
+  model: "mock-model-v1"
+  temperature: 0.3
+  max_output_tokens: 500
+  timeout_seconds: 30
+
+logging:
+  store_message_text: true
+  redact_direct_identifiers: true
+  include_prompt_version: true
+  include_config_hash: true
+
+dynamic_trigger:
+  classifier: "rules_v1"
+  enabled_conditions:
+    - C4
+  categories:
+    - product_interest
+    - budget_concern
+    - identity_expression
+    - social_visibility
+    - no_relevant_trigger
