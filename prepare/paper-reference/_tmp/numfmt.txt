@@ -1,0 +1,16 @@
+﻿numId 1 -> abstract 1
+numId 2 -> abstract 5
+numId 3 -> abstract 2
+numId 4 -> abstract 4
+numId 5 -> abstract 3
+numId 6 -> abstract 6
+numId 7 -> abstract 7
+numId 8 -> abstract 0
+abstract 0 fmt= decimal text= %1. start= 1
+abstract 1 fmt= decimal text= %1. start= 1
+abstract 2 fmt= decimal text= %1. start= 1
+abstract 3 fmt= decimal text= %1. start= 1
+abstract 4 fmt= decimal text= %1. start= 1
+abstract 5 fmt= decimal text= %1. start= 1
+abstract 6 fmt= decimal text= %1. start= 1
+abstract 7 fmt= decimal text= %1. start= 1

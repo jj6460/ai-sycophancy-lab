@@ -1,0 +1,12 @@
+﻿ordinal 16
+  docx par.text : '哭具体测量题项：'
+  v2 direct-run : '哭具体测量题项：'
+  -> MATCH
+ordinal 93
+  docx par.text : '引用的文献：Consumer Xenocentrism and Well-Being: Conspicuous Consumption Orientation, Brand Addiction, and Self-Esteem'
+  v2 direct-run : '引用的文献：Consumer Xenocentrism and Well-Being: Conspicuous Consumption Orientation, Brand Addiction, and Self-Esteem\xa0\xa0'
+  -> MATCH
+ordinal 98
+  docx par.text : "测量炫耀性消费倾向题项(Cronbach's α = 0.908)："
+  v2 direct-run : "测量炫耀性消费倾向题项(Cronbach's α = 0.908)："
+  -> MATCH

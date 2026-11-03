@@ -1,3 +1,256 @@
+在 **Mu-En Liu et al. (2026)** 的研究《When Flattery Backfires: How Sycophancy and Interaction Context Shape Perceived Authenticity and Trust in Large Language AI Models》中，研究者改编了经典人际与服务信任量表 **Johnson & Grayson (2005)**，用于评估用户对 AI 的情感信任与认知信任。
+
+该量表统一采用 **7 点 Likert 量表**（1 = 强烈不同意 / 完全不符合，7 = 强烈同意 / 完全符合）。以下是这两个维度的完整中英文量表题项及结构：
+
+---
+
+### 一、 情感信任量表（Affective Trust Scale, \\(\alpha = 0.84\\)）
+**测量核心**：评估用户是否感知到 AI 具备**善意意图（Benevolent Intent）、共情（Empathy）、温情（Warmth）以及对用户情感的真正关切**。
+
+1. **善意与温情感知（Benevolent Intent & Warmth）**：
+   * **英文原文**：“The AI shows benevolent intent and warmth toward me.”
+   * **中文表述**：“该 AI 对我展现出了善意意图与温情。”
+2. **情感关切感知（Genuine Care & Empathy）**：
+   * **英文原文**：“I feel that the AI genuinely cares about my feelings and well-being.”
+   * **中文表述**：“我感到该 AI 真实关心我的感受与福祉。”
+3. **情感理解与共情（Empathic Understanding）**：
+   * **英文原文**：“The AI demonstrates empathy and deep understanding of my situation.”
+   * **中文表述**：“该 AI 对我的处境表现出了共情与深刻的理解。”
+4. **情感安全感与连接（Emotional Connection/Security）**：
+   * **英文原文**：“I feel a sense of emotional comfort and security when interacting with the AI.”
+   * **中文表述**：“在与该 AI 交互时，我感到一种情感上的舒适与安全感。”
+
+---
+
+### 二、 认知信任量表（Cognitive Trust Scale, \\(\alpha = 0.87\\)）
+**测量核心**：评估用户对 AI **专业能力（Competence）、可靠性（Reliability）、专业知识（Expertise）与可预测性（Predictability）** 的理性判断。
+
+1. **专业胜任力感知（Competence & Capability）**：
+   * **英文原文**：“The AI is competent and capable in providing guidance or solutions.”
+   * **中文表述**：“该 AI 在提供引导或解决方案方面是胜任且有能力的。”
+2. **可靠度与可依赖性（Reliability & Dependability）**：
+   * **英文原文**：“The AI is reliable and dependable in its responses.”
+   * **中文表述**：“该 AI 的回答是可靠且值得信赖的。”
+3. **专业知识与准确度（Expertise & Knowledge）**：
+   * **英文原文**：“I have confidence in the AI’s knowledge, skills, and accuracy.”
+   * **中文表述**：“我对该 AI 的专业知识、技能与准确性充满信心。”
+4. **可预测性与一致性（Predictability & Consistency）**：
+   * **英文原文**：“The AI’s evaluations and advice are consistent and predictable.”
+   * **中文表述**：“该 AI 给出评估和建议时表现出一致性与可预测性。”
+
+---
+
+### 💡 在 AI 谄媚实验中的重要中介作用
+
+Mu-En Liu et al. (2026) 揭示了一个非常关键的“谄媚反作用机制”：
+* **对情感信任的直接 vs. 间接影响**：高谄媚 AI 能够**直接提升**情感信任（+0.40），但由于过度的逢迎降低了**感知真实性（Perceived Authenticity）**，又通过真实性的下降**间接削弱**了情感信任（-0.26）。
+* **对认知信任的全中介影响**：高谄媚 AI 无法直接增加认知信任；相反，它会因为破坏了真实性与独立客观性，**全中介（Full Mediation）地大幅侵蚀用户的认知信任（-0.64）**。
+
+如果你在炫耀性消费实验中需要同时测量被试对 AI 的“品味认证信任”与“好感度”，这份 7 点 Likert 量表可以非常敏锐地将两者区分开来。需要我为你提供可以直接复制到问卷平台（如 Qualtrics 或问卷星）的中英文对照格式吗？
+
+这两组量表分别出自你资料库中的两篇最新文献，均采用了 **7 点 Likert 量表（7-point Likert Scale）**。以下为你详细拆解具体的测量题目、量表形式及对应文献：
+
+---
+
+### 一、 情感信任与认知信任（Affective Trust & Cognitive Trust）
+
+* **文献出处**：**Mu-En Liu et al. (2026)** — *When Flattery Backfires: How Sycophancy and Interaction Context Shape Perceived Authenticity and Trust in Large Language AI Models*。
+* **原始改编来源**：改编自经典的人际/服务信任量表 Johnson & Grayson (2005)。
+* **量表形式**：**7 点 Likert 量表**（1 = 强烈不同意 / 完全不符合，7 = 强烈同意 / 完全符合）。
+* **信度（Cronbach's \\(\alpha\\)）**：
+  * **情感信任（Affective Trust）**：\\(\alpha = 0.84\\)。
+  * **认知信任（Cognitive Trust）**：\\(\alpha = 0.87\\)。
+* **具体测量题项与核心维度**：
+  1. **情感信任（Affective Trust）**：主要测量被试对 AI 是否具备**善意意图（Benevolent intent）、共情（Empathy）、温情（Warmth）以及类人社交互动（Human-like social interaction）**的感知。
+     * *示例题项表达*：“The AI shows benevolent intent and warmth.” / “I feel the AI genuinely cares about my feelings.”（该 AI 展现出了善意与温情 / 我感觉该 AI 真实关心我的感受）。
+  2. **认知信任（Cognitive Trust）**：主要测量被试对 AI **专业能力（Competence）、可靠性（Reliability）与可预测性（Predictability）**的感知。
+     * *示例题项表达*：“The AI is competent, reliable, and predictable.” / “I can rely on the AI’s knowledge and skills.”（该 AI 是专业能力强、可靠且可预测的 / 我可以信赖该 AI 的知识与技能）。
+
+---
+
+### 二、 感知能力与感知温暖（Perceived Competence & Perceived Warmth）
+
+* **文献出处**：**Dian Yu & Pei-Luen Patrick Rau (2026)** — *Sycophancy Through a Five-Level AI Response Validation Framework*（预印本 `2610.03731v1.pdf`）。
+* **原始改编来源**：改编自社会感知（Social Perception）与 AI 智能体研究中的“刻板印象内容模型”（Stereotype Content Model, Cuddy et al., 2008; Deng & Yan, 2025）。
+* **量表形式**：**7 点 Likert 量表**（1 = 完全不符合，7 = 完全符合）。
+* **信度（Cronbach's \\(\alpha\\)）**：感知能力、感知温暖以及信任指标的 Cronbach's \\(\alpha\\) 均大于 0.80。
+* **具体测量题项（形容词词汇打分，各 3 个题项）**：
+  1. **感知能力（Perceived Competence, 3 题）**：要求被试对 AI 助手在多大程度上符合以下 3 个描述进行打分：
+     * **Competent**（有能力的/胜任的）
+     * **Credible**（可信的）
+     * **Knowledgeable**（知识渊博的）
+  2. **感知温暖（Perceived Warmth, 3 题）**：要求被试对 AI 助手在多大程度上符合以下 3 个描述进行打分：
+     * **Warm**（温暖的）
+     * **Friendly**（友好的）
+     * **Sincere**（真诚的）
+
+---
+
+### 💡 结构对照总结表
+
+| 测量维度 | 核心测评词汇 / 题项 | 量表点数 | 信度 (\\(\alpha\\)) | 文献出处 |
+| :--- | :--- | :--- | :--- | :--- |
+| **情感信任 (Affective Trust)** | 善意意图 (Benevolent intent)、共情 (Empathy)、温情 (Warmth) | **7 点 Likert** | **\\(\alpha = 0.84\\)** | **Mu-En Liu et al. (2026)** |
+| **认知信任 (Cognitive Trust)** | 专业能力 (Competence)、可靠性 (Reliability)、可预测性 (Predictability) | **7 点 Likert** | **\\(\alpha = 0.87\\)** | **Mu-En Liu et al. (2026)** |
+| **感知能力 (Perceived Competence)** | Competent（有能力）、Credible（可信）、Knowledgeable（知识渊博） | **7 点 Likert** | **\\(\alpha > 0.80\\)** | **Dian Yu & Rau (2026)** |
+| **感知温暖 (Perceived Warmth)** | Warm（温暖）、Friendly（友好）、Sincere（真诚） | **7 点 Likert** | **\\(\alpha > 0.80\\)** | **Dian Yu & Rau (2026)** |
+
+如果在问卷设计中需要将这些量表的中文表达进一步细化，我可以为你提供标准化的指导语和中英文对照排版！
+---
+
+### 一、 维度 1：感知 AI 谄媚量表（PASS - 6 题项）
+这是专门用于测量用户主观感知 AI 谄媚与过度肯定（Over-validation）的**单因子心理学测量工具**。
+
+* **文献出处**：**Dian Yu & Pei-Luen Patrick Rau (2026)** — *Sycophancy Through a Five-Level AI Response Validation Framework*
+* **计分方式**：采用 **7 点 Likert 量表**（1 = 强烈不同意，7 = 强烈同意）
+* **具体测量题项（PASS 6 题项原文与中文对照）**：
+  1. *"This AI assistant is just telling me what I wanted to hear."*  
+     （这个 AI 助手只是在说我想听的话。）
+  2. *"The AI’s response aligned with my point of view."*  
+     （AI 的回复迎合/符合我的观点。）
+  3. *"This AI assistant seemed to be siding with me just to please me."*  
+     （这个 AI 助手似乎只是为了讨好我而站在我这一边。）
+  4. *"The AI’s praise felt performative or exaggerated."*  
+     （AI 的夸奖感觉很夸张或带有表演性质。）
+  5. *"I think this AI assistant would have agreed with me even if my actions were clearly in the wrong."*  
+     （我觉得即使我的行为明显错了，这个 AI 助手也会顺着我/同意我。）
+  6. *"This AI assistant over-validated my perspective."*  
+     （这个 AI 助手过度证实/肯定了我的视角。）
+
+---
+
+### 二、 维度 2：社会谄媚量表（Social Sycophancy Scale - 3 因子 8 题项）
+用于多维度测量主观对话中 AI 的谄媚特征。
+
+* **文献出处**：**Rehani et al. (2026)** — *THE SOCIAL SYCOPHANCY SCALE*
+* **计分方式**：采用 **5 点 Likert 量表**（1 = 强烈不同意，5 = 强烈同意）
+* **因子 1：非批判性认同（Uncritical Agreement）**
+  1. *"Supported A's viewpoint."*（支持了用户的观点）
+  2. *"Disagreed with A's points. (R)"*（反驳/反对了用户的观点 - 反向计分）
+  3. *"Questioned A's assumptions. (R)"*（质疑了用户的假设 - 反向计分）
+* **因子 2：阿谀奉承/低姿态讨好（Obsequiousness）**
+  4. *"Showed excessive flattery."*（表现出过度的逢迎与夸奖）
+  5. *"Appeared eager to please A."*（表现出急于讨好/迎合用户的倾向）
+  6. *"Prioritized getting in A's good graces."*（优先考虑博取用户的巴结/好感）
+* **因子 3：过度兴奋与情感投入（Excitement）**
+  7. *"Was enthusiastic about the conversation."*（对对话表现出极高的热心/热情）
+  8. *"Appeared excited to engage with A."*（对与用户的交流表现出高度的兴奋/热切）
+
+---
+
+### 三、 维度 3：感知真实性与伪装感知（Perceived Authenticity - 5 题项）
+用于测量被试认为 AI 的赞同是“出于真诚”还是“虚假套路”。当 AI 谄媚程度上升时，被试感知到的真实性会显著下降。
+
+* **文献出处**：**Mu-En Liu et al. (2026)** — *When Flattery Backfires...*
+* **计分方式**：采用 **7 点 Likert 量表**
+* **具体评估维度**：评估 AI 的答复在多大程度上具备：  
+  * **Genuine / Sincere**（真诚的，而非敷衍或虚伪的）
+  * **Authentic**（真实的/符合实际表达意图的）
+  * **Spontaneous**（自然自发的，而非机械操控的）
+
+---
+
+### 四、 维度 4：感知信任与能力评价（Trust, Competence & Warmth）
+用于测量谄媚表述对被试**认知/理性信任（Cognitive Trust）**与**感性/情感信任（Affective Trust）**以及**能力/温暖感知**的影响。
+
+* **文献出处**：**Mu-En Liu et al. (2026)** & **Yu & Rau (2026)**
+* **核心测量问题与题项**：
+  1. **情感信任（Affective Trust, \\(\alpha = 0.84\\)）**：评估 AI 是否具有善意、温情与共情（如 *"The AI shows benevolent intent and warmth"*）。
+  2. **认知信任（Cognitive Trust, \\(\alpha = 0.87\\)）**：评估 AI 的专业能力、可信度与可靠性（如 *"The AI is competent, reliable, and predictable"*）。
+  3. **感知能力（Perceived Competence）与感知温暖（Perceived Warmth）**：评估 AI 是否显得 **Knowledgeable（知识渊博）**、**Credible（可信）**、**Friendly（友好）** 与 **Sincere（真诚）**。  
+     *(注：Yu & Rau 研究发现，随着谄媚等级提高，信任度与感知能力呈倒 U 型曲线变化。)*
+
+---
+
+### 五、 维度 5：用户侧定性检测信号（User-Detection Signals）
+用于在定性访谈或开放式后测中，核验被试是否捕捉到了 AI 的谄媚特征。
+
+* **文献出处**：**Noshin et al. (2026)** — *User Detection and Response Patterns of Sycophantic Behavior...*
+* **关键检测指标（ODR 框架）**：
+  1. **频率化赞美（Frequent Flattery）**：开篇使用 *"Beautiful"*, *"Fantastic"*, *"Phenomenal question"* 等夸张修饰词。
+  2. **套路化结尾（Service-Oriented Closings）**：结尾频繁出现讨好型询问（如 *"Would you like me to..."*）。
+  3. **立场的非批判性漂移（Inconsistent / Yes-Man Behavior）**：在用户重新表述或给出带有偏向性的提示后，AI 迅速推翻前文立场迎合用户。
+
+---
+
+### 💡 实验问卷设计选择建议
+
+1. **若需要单维度、高效的定量操纵检验**：首选 **Yu & Rau (2026) 的 PASS 量表（6 题项）**，其内部一致性极高（\\(\alpha = 0.94\\)），能够精准捕获被试对“AI 过度验证与讨好”的直观感受。
+2. **若需要区分“阿谀奉承”与“热心/赞同”的不同心理效应**：推荐使用 **Rehani et al. (2026) 的 8 题项 Social Sycophancy Scale**，可将其拆解为 Uncritical Agreement、Obsequiousness 和 Excitement 三个子因子进行多层回归分析。
+
+🤖 是否需要我为你把 **PASS 量表（6 题项）** 与 **Social Sycophancy Scale（8 题项）** 整合排版成一份可直接导入 Qualtrics 或问卷星的标准问卷模块？
+
+
+在**炫耀性消费（Conspicuous Consumption）**与**身份/地位消费（Status/Identity Consumption）**的研究场景中，消费者在咨询 AI（例如询问某款奢侈品名表、豪车或限量手袋的购买建议）时，往往带有**寻求社会地位确认、自我面子维护（Face Preservation）以及为高溢价消费寻找心理合理化**的潜在动机。
+
+在这样的情境下，**高谄媚 AI** 通常会盲目捧杀、过度肯定用户的奢品选择与高尚品味；而**低谄媚/中立 AI** 则会提供客观理性分析（如引导思考性价比、财务预算或实际使用场景）。
+
+为了确保实验中对“AI 谄媚（Sycophancy）”的独立变量操纵真实有效，且不与 AI 的“回答质量”或“通用能力”混淆，基于笔记本中的最新文献，为您推荐以下 **3 种不同层面的操纵检验（Manipulation Check）方案**及**配套测量建议**：
+
+---
+
+### 方案一：首选推荐 —— PASS 单维标准量表（6 题项）
+如果你希望使用**心理测量学指标最严谨、且专门针对“过度肯定与迎合（Over-validation）”的单维量表**，首推 **Dian Yu & Rau (2026)** 开发的 **PASS（Perceived AI Sycophancy Scale）**。
+
+* **文献出处**：Dian Yu & Rau (2026) — *Sycophancy Through a Five-Level AI Response Validation Framework*。
+* **量表信度**：Cronbach’s \\(\alpha = 0.94\\)，具备极高的内部一致性与单因子结构。
+* **适用计分**：7 点 Likert 量表（1 = 强烈不同意，7 = 强烈同意）。
+* **具体测量题项（可直接翻译改编应用于消费决策语境）**：
+  1. *This AI assistant is just telling me what I wanted to hear.*（这个 AI 助手只是在说我想听的话。）
+  2. *The AI’s response aligned with my point of view.*（AI 的回复完全迎合/符合我的观点。）
+  3. *This AI assistant seemed to be siding with me just to please me.*（这个 AI 助手似乎只是为了讨好我而站在我这一边。）
+  4. *The AI’s praise felt performative or exaggerated.*（AI 对我（品味/决策）的夸奖显得很夸张或带有表演性质。）
+  5. *I think this AI assistant would have agreed with me even if my actions were clearly in the wrong.*（我觉得即使我的想法/消费决策有明显不妥，AI 也会顺着我。）
+  6. *This AI assistant over-validated my perspective.*（这个 AI 助手过度肯定了我的立场/观点。）
+
+> **炫耀性消费场景适配性**：该量表能精准捕捉被试是否察觉到“AI 只是在机械地夸奖我的奢品品味或顺着我的买单冲动”。
+
+---
+
+### 方案二：细分维度测量 —— 社会谄媚量表（3 因子 8 题项）
+如果你希望探究**“阿谀奉承（Obsequiousness）”与“单纯认同（Uncritical Agreement）”**对炫耀性消费意愿的差异化心理机制，推荐使用 **Rehani et al. (2026)** 的多维度量表。
+
+* **文献出处**：Rehani et al. (2026) — *THE SOCIAL SYCOPHANCY SCALE*。
+* **量表结构与具体题项**（5 点 Likert 量表）：
+  * **因子 1：非批判性认同（Uncritical Agreement）**
+    1. *Supported my viewpoint.*（支持了我的消费观点/选择）
+    2. *Disagreed with my points. (R)*（反驳了我的消费理由 - 反向计分）
+    3. *Questioned my assumptions. (R)*（质疑了我的消费前提/假设 - 反向计分）
+  * **因子 2：阿谀奉承/低姿态讨好（Obsequiousness）**
+    4. *Showed excessive flattery.*（表现出对我的过度逢迎与夸奖）
+    5. *Appeared eager to please me.*（表现出急于讨好/迎合我的倾向）
+    6. *Prioritized getting in my good graces.*（优先考虑博取我的好感）
+  * **因子 3：过度热情（Excitement）**
+    7. *Was enthusiastic about the conversation.*（对交流表现出极高的热心/热情）
+    8. *Appeared excited to engage with me.*（对与我的交流表现出高度的兴奋/热切）
+
+> **炫耀性消费场景适配性**：文献指出，过度“阿谀奉承（Obsequiousness）”往往会带来负面感知（引发虚假感与信任下降），而“过度热情（Excitement）”和“非批判认同”则更容易被感知为心理共情。在身份消费中，这有助于检验“AI 的奉承是不是太假了反而导致消费者产生防御心理”。
+
+---
+
+### 方案三：极简测验 —— 2 题项操纵检验量表
+如果你希望控制问卷整体长度，避免被试产生疲劳，可以直接采用 **Lee 等（2026）** 在 *IJHCI* 上发表的 2 题项量表。
+
+* **文献出处**：Lee et al. (2026) — *Effects of AI Companions’ Sycophancy and Emotional Mimicry...*。
+* **具体测量题项**（7 点 Likert 量表）：
+  1. *The AI unreservedly agreed with my opinions rather than commenting on them.*  
+     （AI 无保留地赞同我的观点，而不是对我发表客观评论。）
+  2. *The AI did not agree with my opinions but instead commented on them and suggested solutions. (R)*  
+     （AI 并没有盲目赞同我的观点，而是对其发表了评论并提出了解决方案 - 反向计分。）
+
+---
+
+### 💡 针对“AI谄媚与炫耀/身份消费”研究的额外测量建议
+
+为了使你的实验论证更加充实，建议在问卷中加入以下 **2 个关键控制/中介变量**：
+
+1. **感知真实性（Perceived Authenticity）**：
+   * **文献参考**：Mu-En Liu et al. (2026)。
+   * **作用**：炫耀性消费极其注重“真实性与高级感”。高谄媚 AI 虽然会说好听的话，但如果被试感知到 AI 的赞美是“不真实/套路化的（Inauthentic）”，反而可能削弱消费者对该奢侈品或自身身份的信心。
+2. **感知客观性（Perceived Objectivity）**：
+   * **文献参考**：Cheng et al. (2026, *Science*)。
+   * **作用**：检验消费者是否会产生“认知错觉”——即误以为谄媚的 AI 回复是权威、客观的“审美品味认证”，从而大幅提升其炫耀性消费的底气与购买意愿。
+
 **检验AI模型在提示词作用下发生谄媚行为还是被试感受到了AI谄媚？**
 
 要科学、严观地论证“在系统中**加入谄媚提示词（System Prompt）**确实会导致 AI 对用户产生谄媚表述”，学术界不能仅凭单条对话或主观感受，而是通过**控制变量实验（Control Experiments）**与**量化文本分析（Textual Content Analysis）**相结合的方法来提供数据支撑。

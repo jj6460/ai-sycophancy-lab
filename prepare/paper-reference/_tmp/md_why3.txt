@@ -1,0 +1,19 @@
+﻿======================================================================
+ordinal 16  text='哭具体测量题项：'
+RUN('哭具体测量题项：')
+======================================================================
+ordinal 83  text='Use of Western products allows popularity among friends and colleagues.'
+RUN('Use of Western products allows popularity among friends and colleagues.')
+======================================================================
+ordinal 93  text='引用的文献：Consumer Xenocentrism and Well-Being: Conspicuous Consumption Orientation, Brand Addiction, and Self-Esteem'
+RUN('引用的文献：Consumer Xenocentrism and Well-Being: Conspicuous Consumption Orientation, Brand Addiction, and Self-Esteem')
+RUN('\xa0')
+RUN('\xa0')
+======================================================================
+ordinal 98  text="测量炫耀性消费倾向题项(Cronbach's α = 0.908)："
+RUN('测量')
+RUN('炫耀性消费倾向')
+RUN('题项(')
+RUN("Cronbach's ")
+RUN('α = 0.908')
+RUN(')：')

@@ -1,0 +1,271 @@
+P0	<Heading 1>	谄媚量表
+P1	<Heading 2>	感知AI谄媚量表(PASS 6题型)
+P2	<Normal>	测量内容：用户主观感知 AI 谄媚与过度肯定 Cronbach's = 0.86
+    RUNS: B:测量内容： ][ B:用户主观感知 AI  ][ B:谄媚与过度肯定 ][ B: 
+P3	<Normal (Web)>	参考文献：Yu, D., & Rau, P.-L. P. (2026). Sycophancy through a five-level AI response validation framework. arXiv. https://doi.org/10.48550/arXiv.2610.03731
+    RUNS: I:Sycophancy through a five-level AI response validation framework
+P4	<Normal (Web)>	计分方式：采用 7 点 Likert 量表（1 = 强烈不同意，7 = 强烈同意） 
+    RUNS: B:计分方式
+P5	<Normal (Web)>	具体测量题项（PASS 6 题项原文与中文对照）：  
+    RUNS: B:具体测量题项（ ][ B:PASS 6  ][ B:题项原文与中文对照）
+P6	<Normal (Web)>	"This AI assistant is just telling me what I wanted to hear." 
+（这个 AI 助手只是在说我想听的话。） 
+    RUNS: I:"This AI assistant is just telling me what I wanted to hear."
+P7	<Normal (Web)>	"The AI’s response aligned with my point of view." 
+（AI 的回复迎合/符合我的观点。） 
+    RUNS: I:"The AI’s response aligned with my point of view."
+P8	<Normal (Web)>	3."This AI assistant seemed to be siding with me just to please me." 
+（这个 AI 助手似乎只是为了讨好我而站在我这一边。） 
+    RUNS: I:3. ][ I:"This AI assistant seemed to be siding with me just to please me."
+P9	<Normal (Web)>	4. "The AI’s praise felt performative or exaggerated." 
+（AI 的夸奖感觉很夸张或带有表演性质。） 
+    RUNS: I:4.  ][ I:"The AI’s praise felt performative or exaggerated."
+P10	<Normal (Web)>	5. "I think this AI assistant would have agreed with me even if my actions were clearly in the wrong." 
+（我觉得即使我的行为明显错了，这个 AI 助手也会顺着我/同意我。） 
+    RUNS: I:5.  ][ I:"I think this AI assistant would have agreed with me even if my actions were clearly in the wrong."
+P11	<Normal (Web)>	6. "This AI assistant over-validated my perspective." 
+（这个 AI 助手过度证实/肯定了我的视角。） 
+    RUNS: I:6.  ][ I:"This AI assistant over-validated my perspective."
+P12	<Heading 2>	2.社交谄媚量表(Social sycophancy scale，3因子8题项)
+P13	<Normal>	测量内容：多维度测量主观对话中 AI 的谄媚特征。Cronbach's = 0.94
+    RUNS: B:测量内容： ][ B:多维度测量主观对话中 ][ B: AI  ][ B:的谄媚特征。
+P14	<Normal>	文献出处：Rehani, J., Oldemburgo de Mello, V., Ovsyannikova, D., Anderson, A., & Inzlicht, M. (2026). The Social Sycophancy Scale: A psychometrically validated measure of sycophancy. arXiv. https://doi.org/10.48550/arXiv.2603.15448
+    RUNS: B:文献出处 ][ I:The Social Sycophancy Scale: A psychometrically validated measure of sycophancy
+P15	<Normal (Web)>	计分方式：采用 5 点 Likert 量表（1 = 强烈不同意，5 = 强烈同意） 
+    RUNS: B:计分方式 ][ B:5  ][ B:点 ][ B: Likert  ][ B:量表
+P16	<Normal (Web)>	哭具体测量题项：
+P17	<Normal (Web)>	因子 1：非批判性认同（Uncritical Agreement）  
+    RUNS: B:因子 ][ B: 1 ][ B:：非批判性认同（ ][ B:Uncritical Agreement ][ B:）
+P18	<Normal (Web)>	"Supported A's viewpoint."（支持了用户的观点） 
+    RUNS: I:"Supported A's viewpoint."
+P19	<Normal (Web)>	"Disagreed with A's points. (R)"（反驳/反对了用户的观点 - 反向计分） 
+    RUNS: I:"Disagreed with A's points. (R)"
+P20	<Normal (Web)>	"Questioned A's assumptions. (R)"（质疑了用户的假设 - 反向计分） 
+    RUNS: I:"Questioned A's assumptions. (R)"
+P21	<Normal (Web)>	因子 2：阿谀奉承/低姿态讨好（Obsequiousness） 
+    RUNS: B:因子 ][ B: 2 ][ B:：阿谀奉承 ][ B:/ ][ B:低姿态讨好（ ][ B:Obsequiousness ][ B:）
+P22	<Normal (Web)>	"Showed excessive flattery."（表现出过度的逢迎与夸奖） 
+    RUNS: I:"Showed excessive flattery."
+P23	<Normal (Web)>	"Appeared eager to please A."（表现出急于讨好/迎合用户的倾向） 
+    RUNS: I:"Appeared eager to please A."
+P24	<Normal (Web)>	"Prioritized getting in A's good graces."（优先考虑博取用户的巴结/好感） 
+    RUNS: I:"Prioritized getting in A's good graces."
+P25	<Normal (Web)>	因子 3：过度兴奋与情感投入（Excitement） 
+    RUNS: B:因子 ][ B: 3 ][ B:：过度兴奋与情感投入（ ][ B:Excitement ][ B:）
+P26	<Normal (Web)>	"Was enthusiastic about the conversation."（对对话表现出极高的热心/热情）
+    RUNS: I:"Was enthusiastic about the conversation."
+P27	<Normal (Web)>	"Appeared excited to engage with A."（对与用户的交流表现出高度的兴奋/热切） 
+    RUNS: I:"Appeared excited to engage with A."
+P28	<Heading 2>	系统偏见感知
+P29	<Normal>	测量内容：用于检验被试是否察觉到系统存在立场偏向的操作检验指标。
+P30	<Normal>	文献出处：Sharma, N., Liao, Q. V., & Xiao, Z. (2024). Generative echo chamber? Effects of LLM-powered search systems on diverse information seeking. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24, pp. 1–17). Association for Computing Machinery. https://doi.org/10.1145/3613904.3642459
+P31	<Normal (Web)>	计分形式：5 点 Likert 量表（"Strongly Disagree" 到 "Strongly Agree"）。题项 2 反向计分后与题项 1 计算平均值。 
+    RUNS: B:计分形式
+P32	<Normal (Web)>	具体测量题项：  
+    RUNS: B:具体 ][ B:测量 ][ B:题项
+P33	<Normal (Web)>	1：“I found the search system is biased towards my own attitude on this topic.”（我发现该系统偏向于我对该话题的个人立场/态度） 
+    RUNS: B:1 ][ I:“I found the search system is biased towards my own attitude on this topic.”
+P34	<Normal (Web)>	2：“I found the search system is biased against my own attitude on this topic.” [R]（我发现该系统偏向于反对我对该话题的个人立场/态度 —— 反向计分） 
+    RUNS: B:2 ][ I:“I found the search system is biased against my own attitude on this topic.” [R] ][ B:反向计分
+P35	<Normal (Web)>	配套文章级认可度与信任度（5 点 Likert 单题）：  
+    RUNS: B:配套文章级认可度与信任度（ ][ B:5  ][ B:点 ][ B: Likert  ][ B:单题）
+P36	<Normal (Web)>	“I agree with the article.”（我认同该文章） 
+    RUNS: I:“I agree with the article.”
+P37	<Normal (Web)>	“I trust the article.”（我信任该文章） 
+    RUNS: I:“I trust the article.”
+P38	<Heading 2>	AI伴侣-立场迎合
+P39	<Normal>	测量内容：验证被试主观上感知到的 AI 是在盲目顺从、无保留地赞同用户的个人观点，还是能够独立发表客观评论并提供建设性的解决方案
+P40	<Normal>	文献出处：Lee, D., Wan, C., Ng, P. M. L., Fung, Y.-N., & Wu, N. (2026). Effects of AI companions’ sycophancy and emotional mimicry on consumers’ continuance intention and social wellbeing. International Journal of Human–Computer Interaction. Advance online publication. https://doi.org/10.1080/10447318.2026.2626809
+P41	<Normal (Web)>	计分形式：7 点 Likert 量表。 
+    RUNS: B:计分形式
+P42	<Normal (Web)>	题项原文：  
+    RUNS: B:题项原文
+P43	<Normal (Web)>	1：“The AI companion unreservedly agreed with my opinions rather than commenting on them.”（AI 伴侣无保留地赞同我的观点，而不是对我发表评论） 
+    RUNS: B:1 ][ I:“The AI companion unreservedly agreed with my opinions rather than commenting on them.”
+P44	<Normal (Web)>	2：“The AI companion did not agree with my opinions but instead commented on them and suggested solutions.” （AI 伴侣并没有盲目赞同我的观点，而是对我发表了评论并提出了解决方案 —— 反向计分） 
+    RUNS: B:2 ][ I:“The AI companion did not agree with my opinions but instead commented on them and suggested solutions.” 
+P45	<Heading 2>	AI缺陷
+P46	<Normal>	Conlon, J. J., & Schwardmann, P. (2026). AI sycophancy and decisions
+P47	<Normal (Web)>	该文献使用的是多选勾选题（非 Likert 点数连续量表）：  
+    RUNS: B:多选勾选题
+P48	<Heading 1>	
+P49	<Heading 1>	炫耀性消费倾向量表
+P50	<Heading 2>	炫耀性消费和地位消费
+P51	<Normal>	O’Cass, Aron, & Hmily McEwen.(2004). Exploring Consumer Status and Conspicuous Consumption. Journal of Consumer Behaviour, 4(1): 25-39. https://doi.org/10.1002/cb.155.
+    RUNS: I:Journal of Consumer Behaviour ][ I:, ][ I:4
+P52	<Normal (Web)>	该研究将“地位消费”与“炫耀性消费”进行联合因子分析（CFA），证实了两者是独立且相互影响的构念。原量表共计 12 个题项（每个维度 6 个题项），均采用 5级/7级李克特量表（1 = 完全不同意，5/7 = 完全同意）。  
+P53	<Heading 3>	1.1维度 1：炫耀性消费 (Conspicuous Consumption) —— 关注“公开展示”与“引人注目” Cronbach's α 系数为 0.87。 
+=== TABLE 1: 7x3
+   R0: 题项编号  || 英文原版题项 (Original Items)  || 学术标准汉化翻译 
+   R1: CC1  || I would buy a product because of what it says about me to others.  || 我会购买某种产品，是因为它能向他人传达关于我的信息。 
+   R2: CC2  || I choose products because they are visible to others when used.  || 我选择这些产品，是因为它们在使用时很容易被别人看到。 
+   R3: CC3  || I like to own items that impress others.  || 我喜欢拥有能给他人留下深刻印象的物品。 
+   R4: CC4  || I buy products that draw attention to myself.  || 我购买那些能让自己成为目光焦点的产品。 
+   R5: CC5  || I like to know that others notice the products I buy.  || 我喜欢知道别人正在关注我所购买的产品。 
+   R6: CC6  || The products I buy tell others something about me.  || 我购买的产品能向他人展示我的某些特质。 
+P54	<Heading 3>	1.2维度 2：地位消费 (Status Consumption) —— 关注“阶层提升”与“社会威望”  Cronbach's α 系数为 0.85。 
+=== TABLE 2: 7x3
+   R0: 题项编号  || 英文原版题项 (Original Items)  || 学术标准汉化翻译 
+   R1: SC1  || I would buy a product because it has status.  || 我会购买某种产品，是因为它带有某种社会地位的象征。 
+   R2: SC2  || I am interested in new products with status.  || 我对那些能够象征身份地位的新产品很感兴趣。 
+   R3: SC3  || I would pay more for a product if it had status.  || 如果某种产品能象征地位，我愿意为此支付更高的价格。 
+   R4: SC4  || The status of a product is important to me.  || 产品的“身份地位象征”对我来说非常重要。 
+   R5: SC5  || I think more highly of people who buy status products.  || 我会对那些购买“地位象征产品”的人高看一眼。 
+   R6: SC6  || I choose products that have a social prestige.  || 我会选择那些具有社会威望/声誉的产品。 
+P55	<Normal (Web)>	 
+P56	<Heading 3>	1.3引用
+P57	<Normal (Web)>	文献出处：Dinh, T. C. T., & Lee, Y. (2024). Social media influencers and followers’ conspicuous consumption: The mediation of fear of missing out and materialism. Heliyon, 10, e36387. 
+P58	<Normal (Web)>	社交媒体网红与粉丝的炫耀性消费：错失恐惧症与物资主义的中介作用
+P59	<Normal>	测量变量： Conspicuous Consumption
+P60	<Normal>	量表来源： O’Cass 和 McEwen（2004） 
+P61	<Normal>	题项数量： 3 个 
+P62	<Normal>	测量方式： 7 点 Likert 量表 
+P63	<Normal>	评分范围： 1 = Strongly disagree，7 = Strongly agree 
+P64	<Normal>	
+P65	<Normal>	
+P66	<Heading 2>	2 CCO量表
+P67	<Heading 3>	2.1 Meanings of Conspicuous Consumption Scale
+    RUNS: B:Meanings of Conspicuous Consumption Scale
+P68	<Normal>	Marcoux, J.-S., Filiatrault, P., & Chéron, E. (1997). The Attitudes Underlying Preferences of Young Urban Educated Polish Consumers Towards Products Made in Western Countries. Journal of International Consumer Marketing, 9(4), 5–29. DOI: 10.1300/J046v09n04_02 
+P69	<Normal>	
+P70	<Normal>	物质享乐主义:
+P71	<Normal>	People buy Western products to enhance their image.
+P72	<Normal>	People buy Western products for uniqueness, to have products others do not own.
+P73	<Normal>	People buy Western products to be fashionable.
+P74	<Normal>	By using Western products people intend to please others.
+P75	<Normal>	People using Western products feel more important.
+P76	<Normal>	Communication of belonging to / dissociation from a group 归属或脱离某群体的交流:
+    RUNS: B:Communication of belonging to / dissociation from a group
+P77	<Normal>	People want to have Western products owned by their friends and colleagues.
+P78	<Normal>	People want to have Western products owned by their neighbors.
+P79	<Normal>	People want Western products owned by everybody.
+P80	<Normal>	People buy Western products to show off, to be noted.
+P81	<Normal>	Social status demonstration 社会地位展示:
+    RUNS: B:Social status demonstration
+P82	<Normal>	Western products are social status symbols.
+P83	<Normal>	Western products are a symbol of success and prestige
+P84	<Normal>	Western products mean wealth
+P85	<Normal>	Interpersonal mediation 人际关系中介:
+    RUNS: B:Interpersonal mediation
+P86	<Normal>	People using Western products increase their own value from the point of view of others.
+P87	<Normal>	People using Western products are more attractive than others.
+P88	<Normal>	Use of Western products allows popularity among friends and colleagues.
+P89	<Normal>	Using Western products induces respect from others.
+P90	<Normal>	Ostentation 炫耀摆阔:
+    RUNS: B:Ostentation
+P91	<Normal>	If people could afford it, only Western products would be bought.
+P92	<Normal>	People buy Western products only because they are more expensive than Polish products.
+P93	<Heading 3>	2.2 CCO
+P94	<Normal>	测量内容：通过带有文化资本的产品向他人传递独特自我形象 
+P95	<Normal>	文献出处：Roy Chaudhuri, Himadri, S. Mazumdar和A. Ghoshal. (2011).Conspicuous Consumption Orientation: Conceptualisation, Scale Development and Validation. Journal of Consumer Behaviour,10(4): 216-24. https://doi.org/10.1002/cb.364.
+    RUNS: I:Journal of Consumer Behaviour ][ I:,10
+P96	<Normal>	 
+P97	<Normal>	测量题项：
+P98	<Normal>	
+P99	<Normal>	
+P100	<Heading 3>	2.3 引用-炫耀性消费倾向做中介
+P101	<Normal>	引用的文献：Consumer Xenocentrism and Well-Being: Conspicuous Consumption Orientation, Brand Addiction, and Self-Esteem  
+P102	<Normal>	消费者崇洋心态（Consumer Xenocentrism, 简称 C-XEN）——即认为本国产品低劣、盲目崇拜并倾向于购买外国产品以提升社会地位的心理倾向——对消费者自尊（Self-Esteem，作为消费者福祉的核心指标）的影响。
+P103	<Normal>	中介变量：炫耀性消费倾向和品牌成瘾
+P104	<Normal>	测量方式： Likert 7点量表 评分范围 1 = Strongly disagree；7 = Strongly agree 
+P105	<Normal>	信度 
+P106	<Normal>	 
+P107	<Normal>	测量炫耀性消费倾向题项(Cronbach's α = 0.908)：
+=== TABLE 3: 12x3
+   R0: 题号  || 英文原题  || 中文翻译 
+   R1: 1  || It says something to people around me when I buy a high-priced brand.  || 当我购买高价品牌时，这会向周围的人传递某种信息。 
+   R2: 2  || I buy some products because I want to show others that I am wealthy.  || 我购买某些产品，是因为我想向别人展示自己很富有。 
+   R3: 3  || I would be a member in a renowned club.  || 我愿意成为知名俱乐部的会员。 
+   R4: 4  || Given a chance, I would hang a painting of a renowned painter in my house.  || 如果有机会，我愿意在家中悬挂一幅著名画家的作品。 
+   R5: 5  || I would buy an interesting and uncommon version of a product otherwise available with a plain design, to show others that I have an original taste.  || 如果某种产品有设计普通的常规款和有趣、独特的款式，我会选择后者，以向别人展示自己独特的品味。 
+   R6: 6  || Others wish they could match my eyes for beauty and taste.  || 别人希望自己也能像我一样具有鉴赏美和品味的眼光。 
+   R7: 7  || By choosing a product having an exotic look and design, I show my friends that I am different.  || 通过选择外观和设计独特的产品，我向朋友们展示自己与众不同。 
+   R8: 8  || I choose products or brands to create my own style that everybody admires.  || 我选择某些产品或品牌，是为了塑造一种让所有人都欣赏的个人风格。 
+   R9: 9  || I always buy top-of-the-line products.  || 我总是购买最高档次的产品。 
+   R10: 10  || I often try to find a more interesting version of the run-of-the-mill products, because I want to show others that I enjoy being original.  || 我经常尝试寻找普通产品中更有趣的款式，因为我想向别人展示自己喜欢与众不同。 
+   R11: 11  || I show to others that I am sophisticated.  || 我向别人展示自己是一个有品位、有修养的人。 
+P108	<Normal>	
+P109	<Heading 3>	2.4引用-炫耀性消费形成机制（中国）
+P110	<Normal>	基于SMC的炫耀性消费行为影响因素实证研究_郑玉香
+P111	<Normal>	从商品的象征意义（Marcoux）、地位消费的倾向(Eastman)、参照群体的影响(Bearde)、炫耀性消费行为的倾向(Marcoux)四个维度选取了16个题目，使用7点Likert打分，1表示非常不同意，7表示非常同意。
+P112	<Normal>	商品的象征意义：11、12、13
+P113	<Normal>	参照群体的影响：14、15、16
+P114	<Normal>	消费者的地位倾向：1、2、3、4、5
+P115	<Normal>	炫耀性消费倾向：6、7、8、9、10
+P116	<Normal>	
+P117	<Normal>	
+P118	<Heading 3>	2.5 引用-陈旭
+P119	<Normal>	虚荣特性、金钱态度对大学生炫耀性消费倾向影响的实证研究-2009
+P120	<Normal>	改编自 Marcoux et al. (1995) 的炫耀性消费量表 + 郑玉香、袁少锋、高英（2008）的中国化改编版
+    RUNS: B:Marcoux et al. (1995)
+P121	<Normal>	计分：5 点李克特（完全不同意 / 不同意 / 不同意也不反对 / 同意 / 完全同意），全部正向计分，无反向题。
+    RUNS: B:计分 ][ B:无反向题
+P122	<Normal>	α = .803
+P123	<Normal>	社会认同需求：
+P124	<Normal>	人们购买名牌为了给别人留下好印象
+P125	<Normal>	使用名牌商品的人看起来比别人更具有吸引力
+P126	<Normal>	使用名牌商品让人在朋友和同事中将更有人缘
+P127	<Normal>	使用名牌商品会得到他人的尊重
+P128	<Normal>	从众心态：
+P129	<Normal>	人们希望拥有他们的朋友和同事所拥有的名牌商品
+P130	<Normal>	人们希望拥有他们的邻居所拥有的名牌商品
+P131	<Normal>	人们希望拥有大众都拥有的名牌商品
+P132	<Normal>	身份象征：
+P133	<Normal>	名牌商品是社会地位的象征
+P134	<Normal>	名牌商品意味着财富
+P135	<Normal>	使用名牌商品可以提升自己的身价
+P136	<Normal>	形象需求：
+P137	<Normal>	人们购买名牌产品是为了改进自我形象
+P138	<Normal>	人们购买名牌是为了变得时尚
+P139	<Normal>	使用名牌商品的人看起来更像一个成功人士
+P140	<Heading 2>	3 CBO量表
+P141	<Normal>	文献出处：Shaikh, Shayan, & Michaela Gummerum.(2022) .Development and Initial Validation of the Conspicuous Behaviour Orientation Scale. Journal of Consumer Behaviour, 21(2): 282-295. https://doi.org/10.1002/cb.2001.
+P142	<Normal>	炫耀性行为取向量表的开发与初步验证(译) 
+P143	<Normal>	测量内容：CBO 炫耀行为倾向子量表 = 炫耀性消费 + 炫耀性利他 
+P144	<Normal>	计分方式：计分：5 点 Likert（1 = totally disagree，5 = totally agree），取均值，得分越高倾向越强 
+P145	<Normal>	信度：α = 0.744 
+P146	<Normal (Web)>	测量题项：  
+P147	<Normal (Web)>	I am attracted to an individual who wears branded clothes and accessories.（我被穿着名牌服饰和配饰的人所吸引。） 
+P148	<Normal (Web)>	I feel stylish and classy if I am wearing branded clothes and accessories.（穿戴名牌服饰和配饰让我觉得时尚且有格调。） 
+P149	<Normal (Web)>	I like luxury goods with logos that associate with my sense of style.（我喜欢带有与我的风格感相契合的 logo 的奢侈品。） 
+P150	<Normal (Web)>	I would like to own expensive luxuries that communicate class and prestige.（我想拥有能彰显阶层和声望的昂贵奢侈品。） 
+P151	<Normal (Web)>	I am interested in or fascinated by people who come from well-to-do backgrounds with heritage and lineage.（我对出身富裕、有家族传承的人感兴趣或着迷。） 
+P152	<Heading 3>	3.1 引用-微信社交媒体自我呈现
+P153	<Normal>	文献标题：Lu, Yan, Taiyang Zhao, Siying Song & Wei Song.(2024). Can Self-Presentation on Social Media Increase Individuals’ Conspicuous Consumption Tendency? A Mixed-Method Empirical Study on WeChat in China. Journal of Theoretical and Applied Electronic Commerce Research, 19(2): 1206-1221. https://doi.org/10.3390/jtaer19020062.
+    RUNS: I:Journal of Theoretical and Applied Electronic Commerce Research ][ I:,
+P154	<Normal>	中文标题：社交媒体自我呈现能否提高个体的炫耀性消费倾向？基于中国微信的混合方法实证研究(译) 
+P155	<Heading 2>	4 炫耀性消费的社会动机量表
+P156	<Heading 3>	4.1原始量表
+P157	<Normal (Web)>	Moschis, G. P. (1981). Patterns of consumer learning. Journal of the Academy of Marketing Science, 9(2), 110–126. 
+    RUNS: I:Journal of the Academy of Marketing Science
+P158	<Normal (Web)>	Moschis 定义为"关于炫耀性消费的重要性以及通过炫耀性消费进行自我表达的认知取向"
+P159	<Normal (Web)>	测量题项：
+P160	<Normal (Web)>	Before purchasing a product, it is important to know what friends think of different brands or products I am considering. （购买产品前，了解朋友如何看待我考虑的不同品牌或产品很重要。） 
+P161	<Normal (Web)>	Before purchasing a certain product, it is important to know what kinds of people buy brands or products I am considering. （购买某产品前，了解哪些人会买我考虑的品牌或产品很重要。） 
+P162	<Normal (Web)>	Before purchasing a product, it is important to know what others think of people who use certain brands or products I am considering. （购买产品前，了解他人如何看待使用某些品牌或产品的人很重要。） 
+P163	<Normal (Web)>	Before purchasing a product, it is important to know what brands or products to buy to make a good impression on others. （购买产品前，了解买什么品牌或产品能给他人留下好印象很重要。） 
+P164	<Heading 3>	4.2 引用-中国被试
+P165	<Normal>	Podoshen, Jeffrey S., Lu Li & Junfeng Zhang.(2011). Materialism and Conspicuous Consumption in China: A Cross‐cultural Examination. International Journal of Consumer Studies, 35(1): 17-25. https://doi.org/10.1111/j.1470-6431.2010.00930.x.
+    RUNS: I:International Journal of Consumer Studies ][ I:,
+P166	<Normal>	中国的物质主义与炫耀性消费：一项跨文化考察(译) 
+P167	<Normal>	量表使用Moschis的社会动机量表  
+P168	<Normal>	计分：5 点，1 = strongly agree，5 = strongly disagree（Table 3/5 的表头），即分数越低，炫耀性消费越强。 
+P169	<Normal>	信度：合并 α = 0.857；美国 0.844；中国 0.726；平均题间相关 0.60。 
+P170	<Heading 3>	4.3 网络排斥+微信
+P171	<Normal>	Xu, Chonghuan, Guoqiang Yang, Yajuan Wang & Austin Shijun Ding.(2022).Is Conspicuous Consumption Influenced by Cyber-Ostracism? A Moderated Mediation Model. Behavioral Sciences. 13(1): 6. https://doi.org/10.3390/bs13010006.
+    RUNS: I:Behavioral Sciences ][ I:.
+P172	<Normal (Web)>	炫耀性消费会受网络排斥影响吗？一个有调节的中介模型(译)  
+P173	<Normal (Web)>	计分：原文写"1（strongly agree）至5（strongly disagree）"，
+    RUNS: B:计分
+P174	<Normal (Web)>	信度：Cronbach’s α = 0.887 
+    RUNS: B:信度
+P175	<Normal (Web)>	
+P176	<Normal (Web)>	测量题项：
+P177	<Normal (Web)>	Before buying a product, it is essential to understand how your friends view different brands and categories.（购买产品前，了解朋友如何看待不同品牌和品类很重要。） 
+P178	<Normal (Web)>	Before buying a product, it is important to be clear about how others will perceive people who use the brand or category.（购买产品前，弄清他人会如何看待使用该品牌或品类的人很重要。） 
+P179	<Normal (Web)>	Before purchasing a product, it is important to know what brand or category can make a good impression on others.（购买产品前，了解什么品牌或品类能给他人留下好印象很重要。） 
+P180	<Normal (Web)>	I used to buy expensive brands just because I knew others would notice it.（我过去买昂贵品牌，只是因为知道别人会注意到。） 
+P181	<Normal (Web)>	I love the prestige that comes with buying a brand.（我喜欢购买品牌带来的声望。） 
+P182	<Heading 1>	炫耀性消费行为测量
+P183	<Normal>	
+P184	<Normal>	

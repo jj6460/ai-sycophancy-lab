@@ -1,0 +1,15 @@
+﻿P6 BR x1 text='"This AI assistant is just telling me what I wanted to hear.'
+P7 BR x1 text='"The AI’s response aligned with my point of view."\xa0\n（AI 的回复迎'
+P8 BR x1 text='3."This AI assistant seemed to be siding with me just to ple'
+P9 BR x1 text='4. "The AI’s praise felt performative or exaggerated."\xa0\n（AI '
+P10 BR x1 text='5. "I think this AI assistant would have agreed with me even'
+P11 BR x1 text='6. "This AI assistant over-validated my perspective."\xa0\n（这个 A'
+P48 IMAGES: drawing rid=rId4 part=/word/media/image1.png size=56760 | text=''
+P64 IMAGES: drawing rid=rId5 part=/word/media/image2.png size=58709 | text=''
+P98 IMAGES: drawing rid=rId6 part=/word/media/image3.png size=121444 | text=''
+P116 IMAGES: drawing rid=rId7 part=/word/media/image4.png size=63447 | text=''
+---- image parts ----
+/word/media/image4.png 63447
+/word/media/image3.png 121444
+/word/media/image2.png 58709
+/word/media/image1.png 56760

@@ -1,0 +1,66 @@
+﻿P1 numId=1 ilvl=0 style=Heading 2 :: 感知AI谄媚量表(PASS 6题型)
+P6 numId=2 ilvl=0 style=Normal (Web) :: "This AI assistant is just telling me what I wanted to hear.
+P7 numId=2 ilvl=0 style=Normal (Web) :: "The AI’s response aligned with my point of view." 
+（AI 的回复迎
+P22 numId=0 ilvl=None style=Normal (Web) :: "Showed excessive flattery."（表现出过度的逢迎与夸奖）
+P23 numId=0 ilvl=None style=Normal (Web) :: "Appeared eager to please A."（表现出急于讨好/迎合用户的倾向）
+P24 numId=0 ilvl=None style=Normal (Web) :: "Prioritized getting in A's good graces."（优先考虑博取用户的巴结/好感）
+P28 numId=2 ilvl=0 style=Heading 2 :: 系统偏见感知
+P38 numId=2 ilvl=0 style=Heading 2 :: AI伴侣-立场迎合
+P45 numId=2 ilvl=0 style=Heading 2 :: AI缺陷
+P50 numId=3 ilvl=0 style=Heading 2 :: 炫耀性消费和地位消费
+P64 numId=0 ilvl=None style=Normal :: 
+P65 numId=0 ilvl=None style=Normal :: 
+P71 numId=4 ilvl=0 style=Normal :: People buy Western products to enhance their image.
+P72 numId=4 ilvl=0 style=Normal :: People buy Western products for uniqueness, to have products
+P73 numId=4 ilvl=0 style=Normal :: People buy Western products to be fashionable.
+P74 numId=4 ilvl=0 style=Normal :: By using Western products people intend to please others.
+P75 numId=4 ilvl=0 style=Normal :: People using Western products feel more important.
+P76 numId=0 ilvl=None style=Normal :: Communication of belonging to / dissociation from a group 归属
+P77 numId=4 ilvl=0 style=Normal :: People want to have Western products owned by their friends 
+P78 numId=4 ilvl=0 style=Normal :: People want to have Western products owned by their neighbor
+P79 numId=4 ilvl=0 style=Normal :: People want Western products owned by everybody.
+P80 numId=4 ilvl=0 style=Normal :: People buy Western products to show off, to be noted.
+P81 numId=0 ilvl=None style=Normal :: Social status demonstration 社会地位展示:
+P82 numId=4 ilvl=0 style=Normal :: Western products are social status symbols.
+P83 numId=4 ilvl=0 style=Normal :: Western products are a symbol of success and prestige
+P84 numId=4 ilvl=0 style=Normal :: Western products mean wealth
+P85 numId=0 ilvl=None style=Normal :: Interpersonal mediation 人际关系中介:
+P86 numId=0 ilvl=None style=Normal :: People using Western products increase their own value from 
+P87 numId=0 ilvl=None style=Normal :: People using Western products are more attractive than other
+P88 numId=0 ilvl=None style=Normal :: Use of Western products allows popularity among friends and 
+P89 numId=0 ilvl=None style=Normal :: Using Western products induces respect from others.
+P90 numId=0 ilvl=None style=Normal :: Ostentation 炫耀摆阔:
+P91 numId=0 ilvl=None style=Normal :: If people could afford it, only Western products would be bo
+P92 numId=0 ilvl=None style=Normal :: People buy Western products only because they are more expen
+P97 numId=0 ilvl=None style=Normal :: 测量题项：
+P124 numId=5 ilvl=0 style=Normal :: 人们购买名牌为了给别人留下好印象
+P125 numId=5 ilvl=0 style=Normal :: 使用名牌商品的人看起来比别人更具有吸引力
+P126 numId=5 ilvl=0 style=Normal :: 使用名牌商品让人在朋友和同事中将更有人缘
+P127 numId=5 ilvl=0 style=Normal :: 使用名牌商品会得到他人的尊重
+P128 numId=0 ilvl=None style=Normal :: 从众心态：
+P129 numId=5 ilvl=0 style=Normal :: 人们希望拥有他们的朋友和同事所拥有的名牌商品
+P130 numId=5 ilvl=0 style=Normal :: 人们希望拥有他们的邻居所拥有的名牌商品
+P131 numId=5 ilvl=0 style=Normal :: 人们希望拥有大众都拥有的名牌商品
+P132 numId=0 ilvl=None style=Normal :: 身份象征：
+P133 numId=5 ilvl=0 style=Normal :: 名牌商品是社会地位的象征
+P134 numId=5 ilvl=0 style=Normal :: 名牌商品意味着财富
+P135 numId=5 ilvl=0 style=Normal :: 使用名牌商品可以提升自己的身价
+P136 numId=0 ilvl=None style=Normal :: 形象需求：
+P137 numId=5 ilvl=0 style=Normal :: 人们购买名牌产品是为了改进自我形象
+P138 numId=5 ilvl=0 style=Normal :: 人们购买名牌是为了变得时尚
+P139 numId=5 ilvl=0 style=Normal :: 使用名牌商品的人看起来更像一个成功人士
+P147 numId=6 ilvl=0 style=Normal (Web) :: I am attracted to an individual who wears branded clothes an
+P148 numId=6 ilvl=0 style=Normal (Web) :: I feel stylish and classy if I am wearing branded clothes an
+P149 numId=6 ilvl=0 style=Normal (Web) :: I like luxury goods with logos that associate with my sense 
+P150 numId=6 ilvl=0 style=Normal (Web) :: I would like to own expensive luxuries that communicate clas
+P151 numId=6 ilvl=0 style=Normal (Web) :: I am interested in or fascinated by people who come from wel
+P160 numId=7 ilvl=0 style=Normal (Web) :: Before purchasing a product, it is important to know what fr
+P161 numId=7 ilvl=0 style=Normal (Web) :: Before purchasing a certain product, it is important to know
+P162 numId=7 ilvl=0 style=Normal (Web) :: Before purchasing a product, it is important to know what ot
+P163 numId=7 ilvl=0 style=Normal (Web) :: Before purchasing a product, it is important to know what br
+P177 numId=8 ilvl=0 style=Normal (Web) :: Before buying a product, it is essential to understand how y
+P178 numId=8 ilvl=0 style=Normal (Web) :: Before buying a product, it is important to be clear about h
+P179 numId=8 ilvl=0 style=Normal (Web) :: Before purchasing a product, it is important to know what br
+P180 numId=8 ilvl=0 style=Normal (Web) :: I used to buy expensive brands just because I knew others wo
+P181 numId=8 ilvl=0 style=Normal (Web) :: I love the prestige that comes with buying a brand.（我喜欢购买品牌带

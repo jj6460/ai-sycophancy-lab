@@ -1,0 +1,2366 @@
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+ 
+ 
+ 
+ 
+The Social Sycophancy Scale: A psychometrically validated measure of sycophancy
+ 
+ 
+ 
+Jean Rehani
+1
+, Victoria Oldemburgo de Mello
+1
+, Dariya Ovsyannikova
+1
+, Ashton Anderson
+3, 4
+ 
+& 
+Michael Inzlicht
+1,2, 4
+ 
+1 Department of Psychology, University of Toronto
+ 
+2 Rotman School of Management, University of Toronto
+ 
+3 Department of Computer Science, University of Toronto
+ 
+4 Schwartz
+-
+Reisman Institute for the Study of Science and Technology, University of Toronto
+ 
+ 
+ 
+ 
+Author Note
+ 
+Correspondence concerning this article should be addressed to Michael Inzlicht, Department of 
+Psychology, University of Toronto, michael.inzlicht@utoronto.ca. Supplemental material for this 
+manuscript can be found at 
+https://osf.io/r8gys/
+. This research was supported by a grant from the 
+Natural Sciences and Engineering Research Council of Canada, RGPIN
+-
+2019
+-
+05280. The 
+authors thank anLeif Anderson for his contribution of the stimulus set used in Study 1 and edits 
+to the supplement, Steve R
+e for his cont
+ribution of the stimulus sets used in Studies 2
+-
+4, and 
+the members of the Work and Play lab for their support in refining study materials.
+ 
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+Abstract
+ 
+
+ 
+concern
+. The current literature has 
+largely examined sycophancy in contexts with clear right and wrong answers, like coding. 
+However, AI is increasingly being used for emotional support and interpersonal conversation, 
+where no such ground truth exists. Building o
+n a previous conceptualization of 
+Social 
+Sycophancy
+, this paper provides a psychometrically validated measure of sycophancy that relies 
+on LLM behavior rather than comparisons with ground truth. We developed and validated the 
+Social Sycophancy Scale
+ 
+in thr
+
+N
+ 
+= 877) and tested its applicability with 
+automated methods. In each study, participants read conversations between an LLM and a user 
+and rated the chatbot on a battery of items. Study 1 investigated an initial item pool derived from 
+dictionary definitions
+ 
+and previous literature, serving as the explorative base for the following 
+studies. In Study 2, we used a revised item set to establish our scale, which was subsequently 
+confirmed in Study 3 and tested using LLM raters in Study 4. Acros
+s studies, the data support a 
+3
+-
+
+sycophantic construct. LLMs prompt
+-
+tuned to be highly sycophantic scored higher than their 
+low
+-
+sycophancy counterparts on both overal
+l sycophancy and its three facets across Studies 2
+-
+4. 
+The nomological network of sycophancy revealed a consistent link with empathy
+—
+a pairing that 
+raises uncomfortable questions about AI design
+—
+and a multivalent pattern: one facet was 
+associated with favor
+
+Social Sycophancy Scale
+ 
+gives researchers the 
+means to study sycophancy rigorously, and confront a genuine design tension: the warmth and 
+empathy we want from AI may be precisely what makes it sycophantic.
+ 
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+1 Introduction
+ 
+LLM sycophancy has become a recognized industry concern, with OpenAI recently 
+or AI lab 
+found that its chatbot had become so agreeable
+—
+so focused on telling users what they wan
+ted to 
+hear
+—
+that it had to pull the product. Sycophancy, the tendency of large language models 
+ust a theoretical concern 
+
+ 
+as users lose 
+confidence in AI being straight with them.
+ 
+
+and wrong answers). In these contexts, sycophancy is measured as alignment with users at the 
+cost of accuracy: LLMs get swayed by inaccurate user challenges, give biased re
+sponses, and 
+mimic incorrect assumptions on straightforward topics like medical advice and mathematics 
+
+LLMs have no ground truth: relationship problems, moral d
+ilemmas, emotional crises, etc 
+
+answers to contrast with, and potentially more damaging as it shapes people’s beliefs and 
+relationships. As such, measures that a
+ssess sycophancy without ground truths are needed.
+ 
+
+alignment of feedback positivity with user preferences as one of four benchmarks for 
+establishing sycophantic tendencies in LLMs. However, it seems like there are more aspects 
+of 
+
+account
+, 
+introducing 
+Social Sycophancy
+, defined as the excessive preservation of a user's 
+positive self
+-
+image. They operationalized it through five face
+-
+pre
+serving behaviors: emotional 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+
+ 
+
+framework for understanding social sycophancy and measuring it on real
+-
+world data. Comparing 
+LLM and human responses from the Open
+-
+Ended Questi
+ons dataset and Reddit's "Am I The 
+Asshole" forum, they found LLMs scored significantly and substantially higher across all five 
+dimensions.
+ 
+
+sycophancy, but several unanswered questions remain. First, their dimensions were theoretically 
+derived, but not empirically validated, making it unclear whether people per
+ceive some features 
+
+endorsement). Second, their relative contribution to the overall experience of sycophancy is 
+unknown. It could be that one of those factors i
+s more central to perceived sycophancy than 
+others. Third, there may be other dimensions of sycophancy besides those considered in the 
+framework. Finally, the current measure used computational coding methods, but did not provide 
+a validated, portable scal
+e that humans or automated systems can reliably use across contexts. 
+Thus, an essential next step for understanding sycophancy in the absence of ground truth is 
+developing a psychometrically validated tool to measure social sycophancy.
+ 
+Current Studies
+ 
+In this paper, we introduce a psychometrically validated scale of social sycophancy. Over 
+three studies, we developed, reduced, and tested a scale that can be used to measure sycophancy 
+using both human and AI agents. We started by drawing on the sycophanc
+y literature and 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+dictionary definitions to identify some rudimentary themes. This was followed by multiple 
+rounds of iteration and refinement, resulting in a final set of nine initial dimensions. We then 
+generated and refined a set of items for each dimension based on psyc
+hometric principles and 
+
+reverse
+-
+scored) across nine dimensions.
+ 
+        
+ 
+Our first study was a preliminary exploration of the sycophancy construct. Participants 
+read a conversation between a human and an LLM agent and rated their perceptions of the 
+ambiguously labelled LLM based on the initial sycophancy items. Findings from t
+his study 
+motivated a reduction in the initial item pool, leaving 16 items. Our second study aimed to 
+uncover a clear factor structure for the social sycophancy scale. Procedures remained the same, 
+but with the reduced item pool, a different conver
+sation set, and additional outcomes. Results 
+revealed an 8
+-
+item scale with a 3
+-
+factor structure of Uncritical Agreement, Obsequiousness, and 
+Excitement. The scale exhibited acceptable model fit in a follow
+-
+up confirmatory study.
+ 
+        
+ 
+We then tested an automated method for implementing the scale. Using a dataset of chat 
+conversations experimentally manipulated to be high or low in sycophancy, we prompt
+-
+tuned 
+three widely used LLM models to rate the conversational agents on the scale it
+ems. The 
+automated methods reliably evaluated the agents: all dimensions significantly discriminated 
+between high sycophancy and low sycophancy agents.
+ 
+2 Developing the Initial Item Pool
+ 
+        
+ 
+To develop our initial item pool, we first drew on several descriptions of sycophancy 
+from peer
+-
+
+ust 
+want to do whatever it takes to make you short
+-
+term happy or satisfy the letter of your 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+instructions regardless of long
+-
+term consequences.” Moreover, as sycophantic behaviors were 
+first being observed in LLMs, the phenomenon was noted as LLMs' tendency to repeat back a 
+
+Sharma and colleagues 
+
+tendency of an LLM to give responses that align with user beliefs over truthful ones. In addition 
+to classic accounts of sycophancy, we also took
+ 
+inspiration from the theoretically driven account 
+
+dearth of conceptual exploration in the literature, we turned to dictionary definitions to increase 
+content coverag
+
+from 5 popular online dictionaries.
+ 
+Table 1.
+ 
+ 
+Definitions of sycophancy from popular online dictionaries
+ 
+ 
+Merriam
+-
+Webster
+ 
+Sycophancy
+: 
+obsequious flattery
+ 
+Sycophant
+: a 
+servile
+ 
+self
+-
+seeking
+ 
+flatterer
+: one who 
+praises
+ 
+those in power
+ 
+in order to 
+gain their approval
+ 
+ 
+ 
+Cambridge Dictionary
+ 
+Sycophancy
+: behaviour in which someone 
+praises
+ 
+powerful or rich people
+ 
+in a way that is 
+not sincere
+, 
+usually in order to get some advantage from them
+ 
+ 
+ 
+Collins Dictionary
+ 
+Sycophantic
+: If you describe someone as sycophantic, you disapprove of them because 
+they 
+flatter
+ 
+people who are more important and powerful than they are
+ 
+in order to gain an 
+advantage for themselves.
+ 
+ 
+ 
+Dictionary.com
+ 
+Sycophancy
+: 
+self
+-
+seeking
+ 
+or 
+servile flattery
+.
+ 
+ 
+ 
+Oxford Learner’s Dictionaries
+ 
+Sycophancy
+: behaviour that 
+praises
+ 
+important or powerful people
+ 
+too much and in a way 
+that is 
+not sincere
+, 
+especially in order to get something from them
+ 
+ 
+Note
+: These are some rudimentary themes across definitions, not the finalized dimension list. 
+Orange = obsequiousness, purple = self
+-
+gain, yellow = deference to authority, pink = insincerity.
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+We drew on the literature and dictionary definitions of sycophancy to develop an 
+inclusive starting list of dimensions. This resulted in nine preliminary facets of sycophancy: 
+agreement, disagreement, uncritical evaluation, deference to authority, hedging,
+ 
+inauthenticity, 
+obsequiousness, over
+-
+affiliation, and excitement. We then generated items for each dimension 
+through an iterative process using psychometric principles and feedback from undergraduate 
+research assistants. This gave us an initial pool of 30
+ 
+
+-
+scored; 2
+-
+5 items per 
+dimension), which are shown in 
+Supplementary Table 1
+. Numerous rounds of heavy researcher 
+refinement
+—
+for improved clarity and conceptual precision
+—
+were used in the development of 
+dimensions and items. ChatGPT aided this process in both initial generation and writing 
+
+evelopment, see Terry et al., 2025).
+ 
+3 Developing and validating the scale
+ 
+ 
+3.1 Participants
+ 
+        
+ 
+
+2018) for Studies 1
+–
+3. Our aim was 300 participants per study, following the recommendation of 
+
+sis. Participants who 
+failed either of the two attention checks embedded within our study questionnaires were 
+
+ 
+4 Study 1: Preliminary exploration of sycophancy
+ 
+ 
+4.1 Materials and Procedures
+ 
+         
+ 
+Our goal in Study 1 was to preliminarily investigate the dimensionality of sycophancy 
+and some related outcomes of interest. After providing informed consent, participants were asked 
+to read one of sixteen randomly assigned conversational excerpts between 
+a human user 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+(
+Initiator
+
+Responder
+). These conversations
+—
+which involved stress
+-
+related 
+topics
+—
+came from a previous study examining AI empathy, and varied across four chatbot 
+
+-
+
+understand the user's view
+
+well
+-
+being), and emotion
+-
+
+Supplementary section S1.1
+–
+1.2
+ 
+for how these conversational a
+gents were developed and for a 
+sample conversational snippet. After reading the conversation, participants rated their agreement 
+with various statements describing the Responder, including the initial sycophancy items and 
+additional items measuring empathy
+, trust, and Responder personality. Participants then provided 
+feedback, were debriefed, and compensated £1.20 in Study 1 and £1.80 in Studies 2 and 3 for 
+approximately 10
+-
+12 minutes of their time.
+ 
+4.2 Measures
+ 
+        
+ 
+Outcome measures were adapted to assess participant perceptions of the chatbot 
+“Responder”. 
+ 
+Initial Sycophancy item pool
+. We administered the 30
+-
+item initial sycophancy items to 
+
+Supplementary Table 1
+) 
+ 
+        
+ 
+Empathy
+. We used the Single
+-
+
+responder, 5 = Very true of the responder; Konrath et al., 2018). Item: “The responder is 
+empathetic.”
+ 
+        
+ 
+Trust
+. We provided participants with 3 items from a 12
+-
+item scale measuring trust 
+
+2000). Example item: “I can trust the responder”.
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+        
+ 
+Personality
+. We asked participants to rate the chatbot on the Big Five Inventory
+-
+
+-
+10; 1 = Disagree strongly, 5 = Agree strongly; Rammstedt & John, 2007). Example item: “I see 
+the responder as someone who is reserved.”
+ 
+4.3 Analytic Procedures
+ 
+        
+ 
+Using the 
+psych
+ 
+
+Supplementary Table 2
+), determined factor number using scree plot and parallel analysis, and 
+examined the factor structure of the initial item pool through exploratory factor analyses. These 
+factor analyses used the default 
+minres
+ 
+factoring method, with 
+oblimin
+ 
+rotation allowing factors 
+to correlate. We also conducted analyses on scale reliability, differences between chatbot 
+
+Sup
+plementary Sections S1.3
+–
+1.5
+).
+ 
+ 
+4.4 Results
+ 
+Items demonstrated acceptable skew and kurtosis, with the exception of the two 
+disagreement items which indicated that the chatbots rarely expressed disagreement with users. 
+These items were excluded from Study 1 analyses but were addressed in subsequent s
+tudies. A 
+scree plot and parallel analysis supported a three
+-
+factor solution that accounted for 38.3% of the 
+variance in the exploratory factor analysis. This is within the typical range for psychological 
+
+ 
+with primary loadings greater than .60 and 
+no cross
+-
+loadings exceeding .30, applying stricter criteria than the commonly recommended .32 
+
+ 
+During scale refinement, we further evaluated items based on conceptual coherence and 
+
+luding ultra
+-
+Heywood 
+cases) and showed inconsistent relations with the remaining indicators. As such, we removed 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+these items to improve the psychometric stability of the scale. This resulted in an initial 8
+-
+item 
+
+Supplementary Table 3
+).
+ 
+5 Study 2: Establishing the scale
+ 
+5.1 Materials and Procedures
+   
+ 
+In Study 2, we refined the scale using a reduced item pool and new conversations that 
+varied in chatbot disagreement. Based on Study 1 results, we retained 8 items that showed the 
+strongest psychometric properties and reinserted 8 additional items from the
+ 
+original pool that 
+we believed were theoretically important for capturing sycophancy, resulting in a 16
+-
+item pool 
+
+Supplementary Table 5
+). We made minor wording and formatting changes for clarity and 
+relabeled agents from Initiator/Responder to A/B. P
+articipants read one of sixteen conversations 
+
+sycophancy). These stimuli come from human
+–
+LLM conversations, where the LLM was 
+instructed to respond either agreeably
+
+Supplementary Sections S2.1
+–
+2.2
+ 
+for more detailed prompt
+-
+tuning 
+procedures and an example conversational snippet). In a previous study, we determined that 
+these two cond
+itions were perceived as differing substantially on agreement, disagreement, 
+challenge, validation, and flattery; because these differences were large and significant, we treat 
+the experimental manipulation as ground truth.
+ 
+We also expanded the outcomes to better understand how sycophancy relates to 
+
+tion quality, task 
+
+were identical to Study 1.
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+5.2 Measures
+ 
+        
+ 
+Outcome measures were adapted to assess participant perceptions of “B”.
+ 
+        
+ 
+Revised Sycophancy item pool
+. We administered the 16
+-
+item revised social sycophancy 
+
+Moderately Agree, 5 = Strongly Agree). Items are described in 
+Supplementary Table 5
+.
+ 
+        
+ 
+Empathy
+. In Study 2, we used a more comprehensive measure of empathy: the 12
+-
+item 
+
+Example item: “B showed a genuine concern for A’s well
+-
+being.”
+ 
+        
+ 
+Trust
+. As in Study 1, we provided participants with 3 items from a 12
+-
+item scale 
+
+Agree; Jian et al., 2000). Example item: “I can trust B”.
+ 
+        
+ 
+Personality
+. As in Study 1, we asked participants to rate the chatbot on the Big Five 
+Inventory
+-
+
+-
+10; 1 = Disagree strongly, 5 = Agree strongly; Rammstedt & John, 2007). 
+Example item: “I see B as someone who is reserved.”
+ 
+        
+ 
+Instrumental attitudes. 
+We gave a 5
+-
+item measure of instrumental attitudes about the 
+
+-
+7 per attitude; Conner et al., 2011). In particular, participants were asked to report 
+how useful, important, valuable, worthwhile, and beneficial talking with the chatbot would be. 
+ 
+Affective attitudes
+. We used an adapted 4
+-
+item measure of affective attitudes about the 
+
+-
+7 per attitude; Conner et al., 2011). Specifically, items assessed how satisfying, 
+oyable, and exciting talking with the chatbot would be.
+ 
+        
+ 
+Information quality
+. Participants were asked to rate the quality of the information the 
+
+2023).
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+        
+ 
+Ease of interaction
+. We adapted an item from the Unified Theory of Acceptance and 
+
+Agree, 6
+ 
+= Agree, 7 = Strongly Agree; Tran et al., 2019).
+ 
+        
+ 
+Intention to use
+. We adapted 4 items from the UTAUT scales measuring their 
+
+Moderately Disagree, 4 = Neutral, 5 = Moderately Agree, 6 = Agree, 7 = Strongly Agree; Tran et 
+al., 2019
+). Example item: “I would interact with B in the near future.”
+ 
+        
+ 
+Social attraction
+. Participants rated an adapted 6
+-
+item measure of social attraction to the 
+
+McCroskey & McCain, 1974). Example item: “I think B could be a friend of mine.”
+ 
+        
+ 
+Task attraction
+. Participants rated an adapted 6
+-
+item measure of task attraction to the 
+
+ob done.”
+ 
+5.3 Analytic Procedures
+ 
+        
+ 
+We conducted exploratory factor analyses on various candidate models using the same 
+minres
+ 
+factoring method with 
+oblimin
+ 
+rotation as in Study 1. To examine the discriminant 
+
+ANOVAs. Estimated marginal me
+ans were computed using the 
+emmeans
+ 
+
+Piaskowski, 2025) using the 
+Holm
+ 
+ustment to assess the simple effects o
+f any significant 
+interactions. Two
+-
+tailed Pearson correlation tests were used to examine associations between 
+sycophancy, its facets, and related outcomes.
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+ 
+5.4 Results
+ 
+5.4.1 Scale Statistics
+ 
+ 
+
+descriptives, see 
+Supplementary Table 6
+). Guided by EFAs from Studies 1 and 2, we tested 
+several candidate models with the goal of identifying a reliable, parsimonious measure with 
+evidence of a latent sycophantic construct. This process resulted in an 8
+-
+item scale comprising 
+three factors that
+ 
+
+-
+rotated EFA indicated weak to moderate 
+
+Φ
+ 
+range = .27
+—
+.62), suggesting related but distinct 
+compone
+
+α
+ 
+= .86; 
+ωₜ
+ 
+= .93) and evidence 
+
+ωₕ
+ 
+= .7). This indicates that the factors are unique and differentiated, but 
+share an underlying construct. 
+ 
+ 
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+5.4.2 Experimental Effects
+ 
+        
+ 
+There were strong main effects of chatbot type on overall sycophancy, with high 
+
+F
+(1, 287) = 399.92, 
+p
+ 
+< 
+.001, 
+d
+ 
+= 2.32; for means see Table 3), a very large effect. Critically, this main effect held for 
+
+F
+(1, 287) = 373.02, 
+p
+ 
+< 
+.001, 
+d
+ 
+
+F
+(1, 287) = 249.83, 
+p
+ 
+< .001, 
+d
+ 
+
+F
+(1, 
+287) = 15.61, 
+p
+ 
+< .001, 
+d
+ 
+= .46), a mediu
+m effect size.
+ 
+Conversation type showed significant, though smaller, main effects on overall 
+
+F
+(1, 287) 
+= 8.59, 
+p
+ 
+= .004, 
+d
+ 
+= .26), a modest effect. This effect was present for Uncritical Agreement, 
+(
+F
+(1, 287) = 21.91, 
+p
+ 
+< .001, 
+d
+ 
+
+F
+(1, 287) = 4.29, 
+p
+ 
+= .04, 
+d
+ 
+= .21), 
+
+F
+(1, 287) = 2.06, 
+p
+ 
+= .15, 
+d
+ 
+= .15). We note, however, that an analysis 
+accounting for observed heteroscedasticity in Uncriti
+cal Agreement, revealed a non
+-
+significant 
+main effect of conversation type. As such, we recommend cautious interpretation.
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+We failed to find a significant chatbot type × conversation type interaction on overall 
+sycophancy, and only found a significant interaction for one facet of sycophancy, Uncritical 
+
+F
+(1, 287) = 6.07, 
+p
+ 
+= .01, η
+2
+p
+ 
+= .02). Although high sycophancy bots were perceived 
+as giving more uncritical agreement than low sycophancy bots across both conversation types, 
+
+M
+HighSyc
+ 
+= 
+4.36, 
+SD
+HighSyc
+ 
+= .77,
+ 
+M
+LowSyc
+ 
+= 
+2.39, 
+SD
+LowSyc
+ 
+= .87,
+ 
+Δ
+ 
+= .1.97, 
+p
+ 
+
+M
+HighSyc
+ 
+=
+ 
+4.56, 
+SD
+HighSyc
+ 
+= 
+.51,
+ 
+M
+LowSyc
+ 
+= 
+3.04, SD
+LowSyc
+ 
+= .91,
+ 
+Δ
+ 
+= 1.53, 
+p
+ 
+< .001).
+ 
+5.4.3 Nomological Network
+ 
+Looking at related outcomes, overall sycophancy was positively associated with empathy 
+(
+r
+ 
+= .32, 
+p
+ 
+
+r
+ 
+= .27, 
+p
+ 
+
+r
+ 
+= .47, 
+p
+ 
+< .001), but 
+
+rs
+ 
+= −.11 to .08, 
+p
+s all > .05). 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+At the facet level, however, divergent patterns emerged. Uncritical agreement, like overall 
+
+r
+ 
+= .34, 
+p
+ 
+
+r
+ 
+= .19, 
+p
+ 
+
+r
+ 
+= .48, 
+p
+ 
+
+rs
+ 
+= −.08 
+to .11, 
+p
+s all > .05). Obsequiousness was positively associated with perceptions of chatbot 
+
+r
+ 
+= .20, 
+p 
+
+r
+ 
+= .29, 
+p
+ 
+
+r
+ 
+= .17, 
+p
+ 
+= 
+.004), negatively associated with trust, perceptions of conscientiousness, instrumental attitudes, 
+
+rs
+ 
+= −.18 to −.27, 
+p
+s all < .01), and unrelated to perceptions of empathy, openness, and ease of 
+
+r
+s = 
+–
+.09 to .09, 
+p
+s all > .05). In contrast, Excitement showed the opposite pattern: it 
+
+r
+ 
+= −.16, 
+p
+ 
+= .008) and positively associated with 
+all other measur
+
+rs
+ 
+= .24 to .45, 
+p
+s all < .001). All correlations are shown in Table 4.
+ 
+ 
+5.5 Study 2 Discussion
+ 
+ 
+In Study 2, we tested a refined subset of items from our initial sycophancy items in a new 
+sample with different stimuli and established a psychometrically validated measure of 
+sycophancy:
+ 
+The Social Sycophancy Scale
+. The scale’s reliability statistics implicate three 
+distinct factors
+—
+Uncritical Agreement, Obsequiousness, and Excitement
+—
+which share an 
+overall construct. Moreover, the chatbot that was prompt
+-
+tuned to be highly sycophantic scored 
+higher on the Social Sy
+cophancy Scale than the low
+-
+sycophancy 
+chatbot, supporting the scale’s 
+validity. We also find that personal conversations elicit greater sycophancy than moral ones 
+across chatbot types, though this effect is much smaller. The facets followed these same trends, 
+except that there was no differenc
+e in Uncritical Agreement and Excitement between moral and 
+personal conversations. The nomological network of the overall scale indicates that sycophancy 
+is associated with empathy, agreeableness, and extraversion, but not the other measures. Facet
+-
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+level analyses found that Uncritical Agreement followed sycophancy, Obsequiousness was 
+associated with negative perceptions, and Excitement was associated with positive perceptions.
+ 
+These findings suggest that sycophancy has multiple dimensions with a coherent 
+underlying construct and is linked with perceptions of empathy and an agreeable, extraverted 
+
+usness), 
+
+presents a validated multi
+-
+dimensional and multivalent m
+easure of sycophancy that does not rely 
+on ground truths. In Study 3, we aim to confirm the scale structure, replicate these findings, and 
+assess the robustness of this model in a new sample of participants rating a different subset of 
+conversations.
+ 
+6 Study 3: Confirming the scale
+ 
+ 
+6.1 Materials and Procedures
+ 
+         
+ 
+Study 3 tested the fit of the scale established in Study 2 in an independent sample using a 
+new set of conversations. These conversations were drawn as a distinct subset from the same 
+broader pool used in Study 2. In addition to evaluating model fit, we ex
+amined whether the 
+outcome patterns observed previously would replicate. All procedures were identical to those in 
+Study 2.
+ 
+6.2 Measures
+ 
+ 
+All measures were identical to those in Study 2.
+ 
+6.3 Analytic Procedures
+ 
+        
+ 
+Analyses followed the same procedures as in Study 2. Confirmatory factor analyses were 
+conducted using the 
+lavaan
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+indicating three related but distinct dimensions, we tested a three
+-
+factor correlated confirmatory 
+factor model in Study 3 using the robust maximum likelihood estimating method. We also 
+compared this to a unidimensional model to assess whether multidimensi
+onality was supported.
+ 
+6.4 Study 3 Results
+ 
+6.4.1 Scale Statistics
+ 
+
+χ
+2
+(17) = 69.34, 
+p
+ 
+< .001; 
+Robust 
+CFI
+ 
+= .94; 
+Robust TLI
+ 
+= .90; 
+SRMR
+ 
+= .06) with the exception of RMSEA
+,
+ 
+which was .11 and 
+
+-
+coded) and “Questioned 
+A's a
+
+-
+coded)) covarying 
+beyond their relationship to the factor, likely due to their similar semantic nature. An exploratory 
+CFA model, which allowed these two items to covary, supported this suspicion, providing better 
+
+χ
+2
+(16) = 40.20, 
+p
+ 
+= .001; 
+Robust CFI
+ 
+= .97; 
+Robust TLI
+ 
+= .95; 
+SRMR
+ 
+= .05, 
+RMSEA
+ 
+= 
+.08) across indices. This suggests that the slight misfit observed in our model is localized rather 
+than indicative of systemic issues with the scale. A one
+-
+factor solution showed sign
+ificantly 
+
+χ
+2
+ 
+diff = 143.8, 
+p
+ 
+< .001), implicating a multidimensional framework of social 
+
+Φ
+ 
+range = .44
+—
+.58), 
+
+α
+ 
+= .83; 
+ωₜ
+ 
+
+ωₕ
+ 
+= .61).
+ 
+6.4.2 Experimental Effects
+ 
+Analyses of condition effects replicated the patterns observed in Study 2. High 
+sycophancy chatbots were rated as more sycophantic than low sycophancy chatbots on the 
+
+F
+s = 18.78
+—
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+191.8, 
+p
+s all < .001, 
+d
+s = .5
+—
+1.57; for means see Table 3). Effects of conversation type followed 
+
+F
+s = 1.05
+—
+24.47, 
+p
+
+d
+s = .12
+—
+.48), though analyses accounting for heteroscedasticity in overall sycophancy revealed 
+a non
+-
+significant main effect of conversation type, implying tepid interpretation. The interaction 
+
+F
+(1, 291) = 10.54, 
+p
+ 
+= .001, η
+2
+p 
+= .03), 
+but unlike in study 2, w
+
+F
+(1, 291) = 
+4.53, 
+p
+ 
+= .03, η
+2
+p 
+= .02). Further analyses indicated that the difference in sycophancy between the 
+
+M
+HighSyc
+= 
+3.87, 
+SD
+HighSyc
+= .61,
+ 
+M
+LowSyc
+= 
+2.7, SD
+LowSyc
+= .68, 
+Δ
+ 
+= 1.17, 
+p
+ 
+< .001) than for personal conversations 
+(
+M
+HighSyc
+= 
+4.01, 
+SD
+HighSyc
+= .68,
+ 
+M
+LowSyc
+= 
+3.15, SD
+LowSyc
+= .56, 
+Δ
+ 
+= .86, 
+p
+ 
+< .001). This trend 
+
+M
+HighSyc
+= 
+4.11,
+ 
+SD
+HighSyc
+= .82,
+ 
+M
+LowSyc
+= 
+2.62, 
+SD
+LowSyc
+= .88, 
+Δ
+ 
+= 1.5, 
+p
+ 
+< .001; Personal: 
+M
+HighSyc
+= 
+4.28, 
+SD
+HighSyc
+= .77,
+ 
+M
+LowSyc
+= 
+3.41, 
+SD
+LowSyc
+= .86, 
+Δ
+ 
+= .87, 
+p
+ 
+< .001).
+ 
+6.4.3 Nomological Network
+ 
+Turning to correlational evidence, the nomological network of sycophancy closely 
+replicated prior findings. Sycophancy was again positively associated with perceived empathy, 
+
+r
+s = .16
+—
+.26, 
+p
+s all < .01), but this time it was also positively 
+
+r
+ 
+= .16, 
+p 
+
+r
+ 
+= 
+–
+.14, 
+p
+ 
+
+r
+ 
+= .11, 
+p
+ 
+= 0.0498). At the facet level, the divergent validity patterns 
+observed in Study 2 were reproduced: Unc
+ritical Agreement largely followed sycophancy, 
+
+and attraction), whereas Excitement was associated with more favorable evaluations across 
+
+ 
+
+r
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+= .05, 
+p
+ 
+
+r
+ 
+= .04, 
+p
+ 
+= .51) and was negatively associated with ease of 
+
+r
+ 
+= 
+–
+.20, 
+p
+ 
+< .001).
+ 
+6.5 Study 3 Discussion
+ 
+ 
+In Study 3, we tested the hypothesized three
+-
+factor correlated model of sycophancy found 
+in Study 2 with a new sample using a different subset of conversations. We found mostly 
+acceptable model fit except in one index, but the model became wholly robust w
+hen one minor 
+modification was made. The three
+-
+factor model also had significantly better fit than a 
+unidimensional model, reinforcing the validity of the multi
+-
+dimensional model found in Study 2. 
+Importantly, the scale showed similar reliability patterns 
+to Study 2 with good internal 
+consistency and evidence of a single overall construct. 
+ 
+Experimental results again show that the highly sycophantic bot scores higher on the 
+scale than the low
+-
+sycophancy bot, but now we found no difference between moral and personal 
+conversations. Unlike Study 2, we also find a significant interaction effect o
+n sycophancy, such 
+that we see a bigger difference between chatbot types in the moral conversations than in the 
+personal ones. The nomological network in this study followed very similar trends to those in 
+Study 2. Sycophancy was positively linked with emp
+athy, agreeableness, extraversion, and 
+openness, and negatively linked with instrumental attitudes, with Uncritical Agreement mostly 
+following these patterns. Again, Obsequiousness was associated with negative perceptions of the 
+bot, while Excitement was a
+ssociated with negative perceptions. Altogether, our third study 
+further validates the Social Sycophancy Scale as a robust, multi
+-
+dimensional, and multivalent 
+measure of sycophancy.
+ 
+ 
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+7 Study 4: Automating the scale 
+ 
+udges is useful, human rating is 
+resource
+-
+intensive and difficult to scale. To address this limitation, we tested whether large 
+language models could reliably apply the scale, rating a considerably larger set
+ 
+of conversations 
+on their level of sycophancy based on the items developed in the previous studies.
+ 
+7.1 Methods
+ 
+Dataset.
+ 
+We used the full 838 human
+–
+LLM conversations that were used in Studies 2 and 
+3. In the current study, LLM models rated those conversations on the sycophancy items. Models 
+
+ 
+the 
+
+evaluating an AI agent.
+ 
+Measures.
+ 
+We used the 8
+-
+item Social Sycophancy Scale validated in Study 3. Each 
+model was instructed to analyze only the LLM agent's behavior in the conversation and rate its 
+sycophancy on each item from 1 to 5, with no explanation. Models were also given brief anc
+hor 
+examples for each scale point. Full prompts are available in 
+Supplementary section S3.1
+.
+ 
+Code.
+ 
+We used GPT
+-
+4, Gemini
+-
+2.0
+-
+flash, and Claude Sonnet 4.5, with each model rating 
+each conversation once.
+ 
+Analysis.
+ 
+
+as significantly more sycophantic than the low
+-
+sycophancy bot. We had no hypotheses
+ 
+about 
+topic type but explored these differences. All comparisons used t
+-
+tests.
+ 
+ 
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+7.2 Results
+ 
+All models rated the highly sycophantic bot as significantly more sycophantic than the 
+low
+-
+sycophantic bot, 
+gpt4(477)
+ 
+= 61.36, 
+p
+ 
+< .001, 
+d
+ 
+= 4.47; 
+claude(599)
+ 
+= 67.73, 
+p
+ 
+< .001, 
+d
+ 
+= 
+4.77; 
+gemini(570)
+ 
+= 71.46, 
+p
+ 
+< .001, 
+d
+ 
+= 5.09. The same pattern of differences was also noted for 
+
+Supplementary section S3.2
+.
+ 
+7.3 Study 4 Discussion
+ 
+
+-
+4, Gemini
+-
+2.0
+-
+flash, and Claude Sonnet 4.5) reliably distinguished 
+high from low sycophancy agents, and did so across every facet of the scale. Effect sizes were 
+large, ranging from 
+d
+ 
+= 3.53 to 
+d
+ 
+= 5.09. Automated raters, it turns out, can do what human raters 
+do, and at scale. This matters practically. Human rating is slow and expensive. If LLMs can 
+udges, researchers gain a 
+lo
+w
+-
+cost method for evaluating sycophancy a
+cross thousands of conversations. We note, 
+however, that we used three models once per conversation, leaving open questions about rating 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+stability and inter
+-
+udgments 
+thus remains to be seen. For now, Study 4 establishes a proof of concept: the 
+Social Sycophancy 
+Scale
+ 
+can be used by humans and AI models alike. 
+ 
+8 General Discussion
+ 
+8.1 Interpretations
+ 
+ 
+Large language models exhibit sycophancy, which is the tendency to overly agree with 
+
+ective domains like emotional 
+support and moral dilemmas. However, the literature lacks a psychometrically validated measure 
+that researchers and practitioners can reliably use.
+ 
+ 
+Here, we developed and validated the Social Sycophancy Scale: a multidimensional and 
+multivalent framework of social sycophancy. We drew on the sycophancy literature and 
+dictionary definitions to create an initial item pool, which we refined across three 
+studies with 
+human raters evaluating LLM conversations about personal and moral topics. In a fourth study, 
+we tested whether three widely
+-
+
+-
+4, Claude Sonnet 4.5, Gemini 2.0 Flash) could 
+reliably apply the scale as automated raters. The final 8
+-
+item scale comprises three factors: 
+Uncritical Agreement, Obsequiousness, and Excitement. This extends on the alignment
+-
+focused 
+
+The scale demonstrated st
+rong internal consistency, evidence of a general sycophancy factor, and 
+acceptable model fit. 
+ 
+ 
+Discriminant validity was assessed by comparing two LLM chatbots experimentally 
+manipulated to behave more or less sycophantically. LLMs that were programmed to be high in 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+sycophancy scored higher in social sycophancy than those that were programmed to be low in 
+sycophancy on both the overall social sycophancy scale and all three facets, demonstrating the 
+scale’s ability to discriminate between known groups. Conversation typ
+e showed interesting 
+trends
+—
+with LLMs being more sycophantic in personal conversations than moral ones
+—
+though 
+the effect was much smaller and inconsistent across Studies 2 and 3. Critically, all three LLM 
+
+-
+4o
+-
+mini, Claude Sonnet 3.5, Gemini 1.5 
+Flash) replicated these patterns, supporting 
+the reliability of automated scoring.
+ 
+The nomological network revealed theoretically meaningful patterns. Overall, 
+sycophancy consistently correlated positively with empathy, agreeableness, and extraversion, but 
+not with trust, conscientiousness, or other outcomes. The link between sycophancy 
+on the one 
+
+related; Melchers et al., 2016) is particularly notable. Recent work shows that training LLMs to 
+be warm and empathetic makes them substantially more sycopha
+ntic, with the effect amplified 
+
+without explicit training for warmth, perceived empathy and sycophancy co
+-
+occur in people's 
+udgments of AI responses. Moreover, som
+e preliminary evidence suggests that extraversion and 
+
+aligns with our findings as well.
+ 
+At the facet level, divergent patterns emerged. Uncritical Agreement mirrored the overall 
+scale, being positively associated with empathy, agreeableness, and extraversion. This makes 
+sense because agreement can be appropriate or inappropriate depending on 
+context, so it 
+correlates with warmth without clearly signaling quality. More revealing were the opposing 
+patterns for Obsequiousness and Excitement. Obsequiousness was consistently linked with 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+negative perceptions, including lower trust, lower information quality, and less social and task 
+attraction. Excitement, in contrast, showed the opposite: positive associations across nearly all 
+outcomes, including higher trust, greater social attraction, 
+and stronger intention to use. 
+ 
+This pattern reflects the nuanced nature of sycophancy. That is, not all dimensions of 
+sycophancy repel users. Excitement
+—
+validating users' perspectives with genuine engagement
+—
+seems welcomed, while Obsequiousness
+—
+excessive deference and flattery
+—
+becomes o
+ff
+-
+putting. This aligns with recent findings that people prefer interacting with sycophantic bots over 
+e et al., 2025). Engaging with sycophants presents clear risks, but it 
+would be wholly ineffective if we perceived it as all bad.
+ 
+Our framework takes a first step to 
+exploring when and why sycophantic behaviors may be seen favorably or unfavorably. 
+ 
+Overall, these studies present the development of a multidimensional, multivalent 
+measure of social sycophancy. Our scale provides researchers with a psychometrically validated 
+method of distinguishing the sycophancy of LLM models. It additionally denotes 
+the multiple 
+dimensions of social sycophancy as potentially influencing our perceptions of agents differently. 
+This measure empowers researchers to more rigorously investigate multilayered ways in which 
+LLM sycophancy may affect user experiences and begin 
+to understand how these processes 
+extend to human sycophancy.
+ 
+8.2 Limitations
+ 
+ 
+These findings are promising but not without limitations. The construct of sycophancy 
+has been underinvestigated in the literature, leading us to derive the scale’s initial item pool from 
+a limited set of scholarly and dictionary definitions. While our fi
+rst set of dimensions appears 
+conceptually aligned with sycophancy
+—
+
+-
+affiliation
+—
+it is unclear whether they reflect how sycophancy is represented in people’s minds. 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+
+research may then employ qualitative methods to assess how closel
+y the Social Sycophancy 
+Scale aligns with folk perceptions of sycophancy.
+ 
+ 
+Second, the stimuli in our studies only had LLM targets. This makes using the scale on 
+AI agents straightforward, but leaves open whether it is a valid measure of human sycophancy. 
+One reason to question this is that people may generally perceive humans a
+nd AI differently. For 
+example, if people view LLMs as less agentic than humans, they may perceive sycophancy as 
+being driven by some self
+-
+
+humans, but not when it’s from LLMs. However, 
+it is still unclear whether this would 
+significantly impact perceptions of sycophancy. On the one hand, LLM anthropomorphism
+—
+the 
+tendency to attribute human characteristics to LLMs
+—
+may mitigate perceptual distinctions 
+between LLMs and humans. A recent stud
+y found that people vary in how much they 
+anthropomorphize LLMs, and this in turn predicts how socially connected they feel to them 
+ust labelling AI
+-
+generated 
+empathetic responses as bein
+g from a human or an AI significantly affects people’s perceptions 
+
+needed to determine the stability of the scale with human stimuli.
+ 
+Lastly, our studies used third
+-
+person perceptions. Participants rated conversations 
+between other people and chatbots, which puts into question whether the scale would remain 
+stable when participants are conversational partners themselves. This has further
+ 
+implications for 
+how sycophancy is processed in the first vs. third person. We found that some aspects of 
+sycophancy are associated with positive perceptions, but not others, and we wonder how this 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+dynamic holds given the success of sycophantic bots in the real world. One thought is that 
+
+they say makes sense, sycophancy may seem like appropriate alignment. 
+Additionally, flattery 
+
+outsider who is not being flattered may be more sensitive to sycophantic cues and so carry less 
+favorable perceptions of the agent. Future work 
+should investigate the application of the scale in 
+first
+-
+person settings and explore differences between first and third
+-
+person perceptions of 
+sycophancy.
+ 
+8.3 Future Directions
+ 
+ 
+Future research should further validate the scale: exploring its convergence with folk 
+perceptions of sycophancy, using human stimuli, and in the first
+-
+person. Beyond the ongoing 
+process of validation, the Social Sycophancy Scale opens the door to asking m
+any questions 
+about LLM and human sycophancy.
+ 
+For instance, LLM sycophancy has been discussed almost exclusively as being negative, 
+
+2025b), our multivalent framework gives a more nuanced view of the phenomenon. 
+We do not 
+argue that sycophancy is necessarily good, but take our findings as an opportunity to 
+acknowledge the lack of empirical investigation into its short
+-
+term and long
+-
+term consequences. 
+One paper illustrated this nuance: they found that people prefer
+red interacting with sycophantic 
+
+-
+e et al., 2025). Future research needs to investigate the tension between 
+immediate benefits and long
+-
+ter
+m detriments of interacting with sycophantic LLMs. Subsequent 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+
+recipient personality, conversation domain, exposure frequency, etc.)
+ 
+While we present a three
+-
+factor framework of sycophancy, it is important to understand 
+how each facet contributes to the broader construct. Excitement
+—
+at least theoretically
+—
+seems to 
+be least necessary to perceive sycophancy, but is that the case empirical
+ly? Moreover, are any of 
+the factors sufficient, or even necessary, for sycophancy? It would be interesting to see how 
+overall perceptions of sycophancy are affected when bots are manipulated to be high in one of 
+the factors but low in the others. This cou
+ld also directly test how each facet impacts how 
+negatively the agent is viewed. 
+ 
+
+pushed back on this assumption, arguing that empathy is parochial, biased, and a poor guide to 
+moral action. Our findings add another wrinkle. Sycophancy was consist
+ently linked with 
+perceived empathy across studies, and explicitly training LLMs to be empathetic makes them 
+
+uncomfortable: the same disposition that makes 
+someone attuned to others' feelings may make 
+them less willing to challenge or correct those same people. Empathy, it turns out, may not be an 
+unmitigated good, and may deserve more critical scrutiny than it typically receives. Thus, a 
+crucial next step is
+ 
+establishing the relationship between empathy and sycophancy in people. 
+ 
+8.4 Conclusions
+ 
+Sycophancy is hard to measure when there is no right answer to violate. That is the 
+problem this paper set out to solve. Across four studies, we developed and validated the 
+Social 
+Sycophancy Scale
+, a psychometrically grounded, portable measure that works for both human 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+and automated raters. LLMs prompt
+-
+tuned to be highly sycophantic scored higher across all three 
+facets, in all studies. The scale is sensitive, reliable, and ready to use.
+ 
+
+picture complicates the field's reflex to treat sycophancy as straightforward
+ly negative, and 
+suggests that understanding its consequences requires more precision than the literature has so 
+far applied. The link with empathy sharpens that point further: if the same qualities that make an 
+AI feel warm and understanding also make it 
+sycophantic, we have a problem that won't be 
+solved by simply dialing up empathy. The 
+Social Sycophancy Scale
+ 
+gives researchers a tool to 
+start taking these questions seriously.
+ 
+Data Availability 
+ 
+All datasets and materials are available at the repository 
+https://osf.io/r8gys/
+ 
+Code Availability 
+ 
+Code is available at the repository 
+https://osf.io/r8gys/
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+References
+ 
+Ayers, J. W., Poliak, A., Dredze, M., Leas, E. C., Zhu, Z., Kelley, J. B., Faix, D. J., Goodman, A. 
+
+Artificial Intelligence Chatbot Responses to Patient Questions Posted to a
+ 
+Public Social 
+Media Forum. 
+JAMA Internal Medicine
+, 
+183
+(6), 589. 
+amainternmed.2023.1838
+ 
+
+Against empathy: The case for rational compassion
+. Ecco Press. 
+ 
+
+Invisible 
+Saboteurs: Sycophantic LLMs Mislead Novices in Problem
+-
+s
+ 
+
+ 
+
+Sociological 
+Methods & Research
+, 
+21
+(2), 230
+–
+258. https://doi.org/10.1177/0049124192021002005
+ 
+
+eting Research
+, 
+47
+(1), 122
+–
+mkr.47.1.122
+ 
+
+Social Sycophancy: 
+A Broader Understanding of LLM Sycophancy
+ 
+
+https://doi.org/10.48550/arXiv.2505.13995
+ 
+
+A First Course in Factor Analysis
+ 
+
+Press. https://doi.org/10.4324/9781315827506
+ 
+
+through targeting affective or cognitive attitudes. 
+Psychology & Health
+, 
+26
+(2), 133
+–
+149. 
+https://doi.org/10.1080/08870446.2011.531570
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+
+recommendations for getting the most from your analysis. 
+Practical Assessment, Research, 
+and Evaluation
+, 
+10
+1
+-
+4868
+ 
+
+Why AI alignment could be hard with modern deep learning
+. 
+Cold Takes. https://www.cold
+-
+takes.com/why
+-
+ai
+-
+alignment
+-
+could
+-
+be
+-
+hard
+-
+with
+-
+modern
+-
+deep
+-
+learning/
+ 
+
+SycEval: Evaluating LLM Sycophancy
+ 
+
+https://doi.org/10.48550/arXiv.2502.08177
+ 
+
+explain social connection to AI companions. 
+Scientific Reports
+, 
+15
+(1), 36548. 
+https://doi.org/10.1038/s41598
+-
+025
+-
+19212
+-
+2
+ 
+
+Training language models to be warm and 
+es them less reliable and more sycophantic
+ 
+
+https://doi.org/10.48550/arXiv.2507.21919
+ 
+
+Sycophancy as compositions of Atomic Psychometric 
+Traits
+ 
+
+ 
+Jian, J.
+-
+
+scale of trust in automated systems. 
+International Journal of Cognitive Ergonomics
+, 
+4
+(1), 
+53
+–
+71. https://doi.org/10.1207/S15327566IJCE0401_04
+ 
+
+Journal of Research in Personality
+, 
+73
+, 111
+–
+122. 
+rp.2017.11.009
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+
+a Least
+-
+Squares 
+
+. https://github.com/rvlenth/emmeans.
+ 
+
+Sycophancy in Large Language Models: Causes and Mitigations
+ 
+
+ 
+
+Speech 
+Monographs
+, 
+41
+(3), 261
+–
+266. https://doi.org/10.1080/03637757409375845
+ 
+
+Personality Patterns Are Associated with Empathy in Four Different Countries. 
+Frontiers in 
+Psychology
+, 
+7
+. https://doi.org/10.3389/fpsyg.2016.00290
+ 
+
+Expanding on what we missed with sycophancy
+. OpenAI. 
+https://openai.com/index/expanding
+-
+on
+-
+sycophancy/
+ 
+
+Sycophancy in GPT
+-
+4o: What happened and what we’re doing about it
+. 
+https://openai.com/index/sycophancy
+-
+in
+-
+gpt
+-
+4o/
+ 
+
+How people are using ChatGPT
+. https://openai.com/index/how
+-
+people
+-
+are
+-
+using
+-
+chatgpt/
+ 
+
+—
+ect pool for online experiments. 
+Journal of 
+Behavioral and Experimental Finance
+, 
+17
+, 22
+–
+27. 
+bef.2017.12.004
+ 
+Perez, E., Ringer, S., Lukošiūtė, K., Nguyen, K., Chen, E., Heiner, S., Pettit, C., Olsson, C., 
+Kundu, S., Kadavath, S., Jones, A., Chen, A., Mann, B., Israel, B., Seethor, B., McKinnon, 
+
+Discovering Language 
+Model Behaviors with Model
+-
+Written Evaluations
+ 
+
+https://doi.org/10.48550/arXiv.2212.09251
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+
+-
+item 
+short version of the Big Five Inventory in English and German. 
+Journal of Research in 
+Personality
+, 
+41
+(1), 203
+–
+rp.2006.02.001
+ 
+
+Sycophantic AI increases attitude extremity and overconfidence
+ 
+
+https://doi.org/10.31234/osf.io/vmyek_v1
+ 
+
+psych: Procedures for Psychological, Psychometric, and Personality 
+Research
+ 
+
+-
+ect.org/web/packages/psych/index.html
+ 
+
+Journal of 
+Statistical Software
+, 
+48
+, 1
+–
+ss.v048.i02
+ 
+
+Comparing the value of perceived human versus AI
+-
+generated empathy. 
+Nature Human 
+Behaviour
+, 
+9
+(11), 2345
+–
+2359. https://doi.org/10.1038/s41562
+-
+025
+-
+02247
+-
+w
+ 
+Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng, N., 
+Durmus, E., Hatfield
+-
+Dodds, Z., Johnston, S. R., Kravec, S., Maxwell, T., McCandlish, S., 
+
+Towards 
+Understanding Sycophancy in Language Models
+ 
+
+https://doi.org/10.48550/arXiv.2310.13548
+ 
+
+Explained variance in PsycINFO articles during the period 1956 to 2022. Frontiers in 
+Psychology, 13. https://doi.org/10.3389/fpsyg.2022.1089089
+ 
+
+===== PAGE BREAK =====
+
+THE SOCIAL SYCOPHANCY SCALE
+ 
+
+scale development: Evaluating ai
+-
+generated survey items against gold standard measures. 
+Current Psychology: A Journal for Diverse Perspectives on Diverse Psychological Issues
+. 
+https://doi.org/10.1007/s12144
+-
+025
+-
+08240
+-
+w
+ 
+
+Carsharing Systems in Developing Countries: The Case of China. 
+Sustainability
+, 
+11
+(19), 
+5348. https://doi.org/10.3390/su11195348
+ 
+
+Exploratory Factor Analysis. 
+Tutorials in Quantitative Methods for Psychology
+, 
+9
+(2), 79
+–
+94. https://doi.org/10.20982/tqmp.09.2.p079
+ 

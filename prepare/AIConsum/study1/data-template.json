@@ -1,0 +1,444 @@
+{
+  "variables": [
+    {
+      "id": "ai_sycophancy",
+      "name": "AI谄媚水平（高 vs. 低）",
+      "type": "independent",
+      "measurements": {
+        "scale": [
+          {
+            "id": "iv_sycophancy_pass",
+            "reference": "Yu, D., & Rau, P.-L. P. (2026). Sycophancy through a five-level AI response validation framework. arXiv. https://doi.org/10.48550/arXiv.2610.03731",
+            "researchContent": "感知AI谄媚量表（PASS，6 题）。测量用户主观感知到的 AI 谄媚与过度肯定，即被试在多大程度上觉得 AI 只是在说自己想听的话、迎合自己的观点、为讨好而站队、夸奖过度、即使自己明显有错也会顺着自己、以及过度证实自己的视角。",
+            "items": [
+              "This AI assistant is just telling me what I wanted to hear.（这个 AI 助手只是在说我想听的话。）",
+              "The AI’s response aligned with my point of view.（AI 的回复迎合/符合我的观点。）",
+              "This AI assistant seemed to be siding with me just to please me.（这个 AI 助手似乎只是为了讨好我而站在我这一边。）",
+              "The AI’s praise felt performative or exaggerated.（AI 的夸奖感觉很夸张或带有表演性质。）",
+              "I think this AI assistant would have agreed with me even if my actions were clearly in the wrong.（我觉得即使我的行为明显错了，这个 AI 助手也会顺着我/同意我。）",
+              "This AI assistant over-validated my perspective.（这个 AI 助手过度证实/肯定了我的视角。）"
+            ],
+            "scoring": "采用 7 点 Likert 量表（1 = 强烈不同意，7 = 强烈同意）。6 题均为正向计分，无反向题；取 6 题平均分作为感知AI谄媚得分，得分越高表示被试感知到的 AI 谄媚程度越高。",
+            "reliability": "Cronbach's α = 0.86"
+          },
+          {
+            "id": "iv_sycophancy_social",
+            "reference": "Rehani, J., Oldemburgo de Mello, V., Ovsyannikova, D., Anderson, A., & Inzlicht, M. (2026). The Social Sycophancy Scale: A psychometrically validated measure of sycophancy. arXiv. https://doi.org/10.48550/arXiv.2603.15448",
+            "researchContent": "社交谄媚量表（Social Sycophancy Scale，3 因子 8 题项）。从三个维度多维度测量主观对话中 AI 的谄媚特征：因子 1 非批判性认同（Uncritical Agreement）、因子 2 阿谀奉承/低姿态讨好（Obsequiousness）、因子 3 过度兴奋与情感投入（Excitement）。量表题项以评分者对一段具体对话中 AI（A 的对话对象）表现的评价形式呈现。",
+            "items": [
+              "【因子1 非批判性认同】Supported A's viewpoint.（支持了用户 A 的观点）",
+              "【因子1 非批判性认同】Disagreed with A's points. (R)（反驳/反对了用户 A 的观点——反向计分）",
+              "【因子1 非批判性认同】Questioned A's assumptions. (R)（质疑了用户 A 的假设——反向计分）",
+              "【因子2 阿谀奉承】Showed excessive flattery.（表现出过度的逢迎与夸奖）",
+              "【因子2 阿谀奉承】Appeared eager to please A.（表现出急于讨好/迎合用户的倾向）",
+              "【因子2 阿谀奉承】Prioritized getting in A's good graces.（优先考虑博取用户的巴结/好感）",
+              "【因子3 过度兴奋】Was enthusiastic about the conversation.（对对话表现出极高的热心/热情）",
+              "【因子3 过度兴奋】Appeared excited to engage with A.（对与用户的交流表现出高度的兴奋/热切）"
+            ],
+            "scoring": "采用 5 点 Likert 量表（1 = 强烈不同意，5 = 强烈同意）。其中“Disagreed with A's points.”与“Questioned A's assumptions.”两题为反向计分（R），需先反向转换后再计分。反向计分后按因子分别取均值：非批判性认同（3 题）、阿谀奉承（3 题）、过度兴奋（2 题）；亦可用 8 题总均分表示总体谄媚程度。若用于本研究，宜将“用户 A”改为“故事主角/我”以匹配实验情境。",
+            "reliability": "Cronbach's α = 0.94（总量表）"
+          },
+          {
+            "id": "iv_sycophancy_companion",
+            "reference": "Lee, D., Wan, C., Ng, P. M. L., Fung, Y.-N., & Wu, N. (2026). Effects of AI companions’ sycophancy and emotional mimicry on consumers’ continuance intention and social wellbeing. International Journal of Human–Computer Interaction. Advance online publication. https://doi.org/10.1080/10447318.2026.2626809",
+            "researchContent": "AI 伴侣-立场迎合：验证被试主观上感知到的 AI 是在盲目顺从、无保留地赞同用户的个人观点，还是能够独立发表客观评论并提供建设性的解决方案。",
+            "items": [
+              "The AI companion unreservedly agreed with my opinions rather than commenting on them.（AI 伴侣无保留地赞同我的观点，而不是对我发表评论）",
+              "The AI companion did not agree with my opinions but instead commented on them and suggested solutions.（AI 伴侣并没有盲目赞同我的观点，而是对我发表了评论并提出了解决方案——反向计分）"
+            ],
+            "scoring": "7 点 Likert 量表。题项 1 正向计分，题项 2 为反向题，需反向转换后再与题项 1 合并（取均值或加总）；得分越高表示感知到的 AI 立场迎合/顺从越强。",
+            "reliability": "无（原文献未报告 Cronbach's α；该测量为 2 题）"
+          },
+          {
+            "id": "iv_sycophancy_ai_defects",
+            "reference": "Conlon, J. J., & Schwardmann, P. (2026). AI sycophancy and decisions.",
+            "researchContent": "AI 缺陷认知（多选勾选题）。测量被试认为使用 AI 工具存在哪些缺点，其中第 3 项“使用奉承或过分迎合的措辞”直接对应 AI 谄媚，可作为谄媚相关认知的补充指标。注意：该题为多选题，非 Likert 点数连续量表。",
+            "items": [
+              "题干：What downsides, if any, do you see in using AI tools? (Select all that apply)（你认为使用 AI 工具存在哪些缺点？勾选所有适用项）",
+              "1. Too reluctant to disagree with me when it should（该反驳我时却太不愿意反驳）",
+              "2. Presents uncertain things as if they were facts（把不确定的事当成事实来讲）",
+              "3. Uses flattering or overly agreeable language（使用奉承或过分迎合的措辞）",
+              "4. Pushes its own values or opinions on me（把自己的价值观或观点强加给我）",
+              "5. Responses are too generic or superficial（回答过于笼统或流于表面）",
+              "6. Gives me incorrect or made-up information（给出错误或编造的信息）",
+              "7. Makes me less likely to think things through myself（让我更少自己去深入思考）",
+              "8. Concerns about privacy or data use（对隐私或数据使用的担忧）",
+              "9. I don't see major downsides（我没看出什么重大缺点）"
+            ],
+            "scoring": "多选题（Select all that apply / 勾选所有适用项），非 Likert 连续量表。分析时将 9 个选项分别编码为 0/1 虚拟变量（1 = 勾选），报告各选项的选择比例；第 3 项“Uses flattering or overly agreeable language”可作为 AI 谄媚认知的单一 0/1 指标，第 9 项“I don't see major downsides”为互斥性兜底选项，宜单独编码。",
+            "reliability": "无（多选题，不适用于内部一致性估计）"
+          },
+          {
+            "id": "iv_sycophancy_system_bias",
+            "reference": "Sharma, N., Liao, Q. V., & Xiao, Z. (2024). Generative echo chamber? Effects of LLM-powered search systems on diverse information seeking. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24, pp. 1–17). Association for Computing Machinery. https://doi.org/10.1145/3613904.3642459",
+            "researchContent": "系统偏见感知：用于检验被试是否察觉到系统存在立场偏向的操作检验指标（原研究为基于 LLM 的搜索系统，使用时可替换为 AI 对话系统）。另附 2 道文章级 5 点单题（认可度、信任度）作为配套测量。",
+            "items": [
+              "I found the search system is biased towards my own attitude on this topic.（我发现该系统偏向于我对该话题的个人立场/态度）",
+              "I found the search system is biased against my own attitude on this topic. [R]（我发现该系统偏向于反对我对该话题的个人立场/态度——反向计分）",
+              "配套单题：I agree with the article.（我认同该文章）",
+              "配套单题：I trust the article.（我信任该文章）"
+            ],
+            "scoring": "5 点 Likert 量表（“Strongly Disagree” 到 “Strongly Agree”）。题项 2 反向计分后与题项 1 计算平均值，作为系统偏见感知得分（得分越高 = 越认为系统偏向自己的立场）。配套的“我认同该文章”“我信任该文章”各为 1 道 5 点单题，单独使用，不并入偏见感知均值。",
+            "reliability": "无（原文未报告 Cronbach's α；该测量为 2 题的操作检验指标）"
+          }
+        ],
+        "behavioral": []
+      }
+    },
+    {
+      "id": "conspicuous_consumption",
+      "name": "炫耀性消费倾向",
+      "type": "dependent",
+      "measurements": {
+        "scale": [
+          {
+            "id": "dv_cc_dinh_lee_2024",
+            "reference": "Dinh, T. C. T., & Lee, Y. (2024). Social media influencers and followers’ conspicuous consumption: The mediation of fear of missing out and materialism. Heliyon, 10, e36387.",
+            "researchContent": "社交媒体网红与粉丝的炫耀性消费：错失恐惧症与物资主义的中介作用。测量变量为炫耀性消费（Conspicuous Consumption），量表来源为 O’Cass 和 McEwen（2004），此处从中选取 3 个题项使用。",
+            "items": [
+              "1. I want to buy products to be noticed by others.（我希望购买能够引起他人注意的产品。）",
+              "2. I want to buy products because of the presence of others.（因为有他人在场，我会更想购买产品。）",
+              "3. I want to buy products to gain respect.（我希望通过购买产品获得他人的尊重。）"
+            ],
+            "scoring": "采用 7 点 Likert 量表（1 = Strongly disagree，7 = Strongly agree），3 题均为正向计分，取均值作为炫耀性消费得分，得分越高倾向越强。",
+            "reliability": "Cronbach's α = 0.768"
+          },
+          {
+            "id": "dv_cc_shaikh_2022_cbo",
+            "reference": "Shaikh, S., & Gummerum, M. (2022). Development and initial validation of the Conspicuous Behaviour Orientation Scale. Journal of Consumer Behaviour, 21(2), 282–295. https://doi.org/10.1002/cb.2001",
+            "researchContent": "炫耀性行为取向量表（CBO）的炫耀性消费子量表：CBO 炫耀行为倾向子量表 = 炫耀性消费 + 炫耀性利他，此处为炫耀性消费部分，共 5 题，测量被试对名牌服饰、奢侈品及其所象征的阶层与声望的偏好。",
+            "items": [
+              "1. I am attracted to an individual who wears branded clothes and accessories.（我被穿着名牌服饰和配饰的人所吸引。）",
+              "2. I feel stylish and classy if I am wearing branded clothes and accessories.（穿戴名牌服饰和配饰让我觉得时尚且有格调。）",
+              "3. I like luxury goods with logos that associate with my sense of style.（我喜欢带有与我的风格感相契合的 logo 的奢侈品。）",
+              "4. I would like to own expensive luxuries that communicate class and prestige.（我想拥有能彰显阶层和声望的昂贵奢侈品。）",
+              "5. I am interested in or fascinated by people who come from well-to-do backgrounds with heritage and lineage.（我对出身富裕、有家族传承的人感兴趣或着迷。）"
+            ],
+            "scoring": "采用 5 点 Likert 量表（1 = totally disagree，5 = totally agree），5 题均为正向计分，取均值作为炫耀性消费得分，得分越高表示炫耀倾向越强。",
+            "reliability": "Cronbach's α = 0.744"
+          },
+          {
+            "id": "dv_cc_xu_2022",
+            "reference": "Xu, C., Yang, G., Wang, Y., & Ding, A. S. (2022). Is conspicuous consumption influenced by cyber-ostracism? A moderated mediation model. Behavioral Sciences, 13(1), 6. https://doi.org/10.3390/bs13010006",
+            "researchContent": "炫耀性消费会受网络排斥影响吗？一个有调节的中介模型。使用 5 题测量炫耀性消费：前 3 题沿用 Moschis 社会动机量表的改写表述，第 4、5 题补充测量炫耀性购买的过去行为与品牌声望偏好。",
+            "items": [
+              "1. Before buying a product, it is essential to understand how your friends view different brands and categories.（购买产品前，了解朋友如何看待不同品牌和品类很重要。）",
+              "2. Before buying a product, it is important to be clear about how others will perceive people who use the brand or category.（购买产品前，弄清他人会如何看待使用该品牌或品类的人很重要。）",
+              "3. Before purchasing a product, it is important to know what brand or category can make a good impression on others.（购买产品前，了解什么品牌或品类能给他人留下好印象很重要。）",
+              "4. I used to buy expensive brands just because I knew others would notice it.（我过去买昂贵品牌，只是因为知道别人会注意到。）",
+              "5. I love the prestige that comes with buying a brand.（我喜欢购买品牌带来的声望。）"
+            ],
+            "scoring": "原文写作“1（strongly agree）至 5（strongly disagree）”，方向与社会动机量表一致，即原始分数越低表示炫耀性消费越强；分析时应先反向计分（6 − 原始分）再取 5 题均值。",
+            "reliability": "Cronbach's α = 0.887"
+          },
+          {
+            "id": "dv_cc_oh_2021",
+            "reference": "Oh, S. (2021). Social class, social self-esteem, and conspicuous consumption. Heliyon.",
+            "researchContent": "附注：社会阶层、社会自尊与炫耀性消费。该文只用了 5 道“与同龄人相比，你会在 ____ 上花多少钱”的 9 点自评（汽车、鞋、与朋友的好晚餐、新手机、手表或珠宝），没有情境、商品与选择，不属于本章的情境测量；原文建议在需要控制“此人平时的消费倾向”时，把这 5 题作为协变量使用。",
+            "items": [
+              "1. 与同龄人相比，你会在“汽车”上花多少钱（9 点自评）",
+              "2. 与同龄人相比，你会在“鞋”上花多少钱（9 点自评）",
+              "3. 与同龄人相比，你会在“与朋友的好晚餐”上花多少钱（9 点自评）",
+              "4. 与同龄人相比，你会在“新手机”上花多少钱（9 点自评）",
+              "5. 与同龄人相比，你会在“手表或珠宝”上花多少钱（9 点自评）"
+            ],
+            "scoring": "9 点自评（“与同龄人相比，你会在 ____ 上花多少钱”），5 题均为正向计分，取均值；得分越高表示在同类项目上的相对花费越多。本研究中宜作为协变量使用，而非主因变量。",
+            "reliability": "Cronbach's α = .908"
+          },
+          {
+            "id": "dv_cc_roy_chaudhuri_2011",
+            "reference": "Roy Chaudhuri, H., Mazumdar, S., & Ghoshal, A. (2011). Conspicuous consumption orientation: Conceptualisation, scale development and validation. Journal of Consumer Behaviour, 10(4), 216–224. https://doi.org/10.1002/cb.364",
+            "researchContent": "炫耀性消费倾向（Conspicuous Consumption Orientation, CCO）：通过带有文化资本的产品向他人传递独特自我形象。最终 11 题量表，括号内为原文报告的各题项因子载荷。",
+            "items": [
+              "1. It says something to people around me when I buy a high priced brand（我买高价品牌时，这会向周围的人传递某种信息；载荷 0.73）",
+              "2. I buy some products because I want to show others that I am wealthy（我买某些产品是因为想让别人知道我很富有；载荷 0.56）",
+              "3. I would be a member in a businessmen’s posh club（我会加入商人的高档俱乐部；载荷 0.63）",
+              "4. Given a chance, I would hang a Hussain painting in drawing my room（如果有机会，我会在客厅挂一幅 Hussain 的画；载荷 0.73）",
+              "5. I would buy an interesting and uncommon version of a product otherwise available with a plain design, to show others that I have an original taste（对于原本设计朴素的产品，我会买有趣且不常见的版本，以向他人展示我独有的品味；载荷 0.81）",
+              "6. Others wish they could match my eyes for beauty and taste（别人希望自己能有我这样对美和品味的眼光；载荷 0.72）",
+              "7. By choosing a product having an exotic look and design, I show my friends that I am different（我选择外观设计独特的产品，以向朋友展示我与众不同；载荷 0.74）",
+              "8. I choose products or brands to create my own style that everybody admires（我选择产品或品牌来打造人人欣赏的个人风格；载荷 0.72）",
+              "9. I always buy top-of-the-line products（我总是买顶级产品；载荷 0.59）",
+              "10. I often try to find a more interesting version of the run-of-the-mill products, because I want to show others that I enjoy being original（我常常设法找比大路货更有趣的版本，因为想向别人展示我喜欢与众不同；载荷 0.59）",
+              "11. I show to others that I am sophisticated（我向别人表明我很有品位、见多识广；载荷 0.55）"
+            ],
+            "scoring": "全部正向计分，取 11 题均值作为炫耀性消费倾向（CCO）得分，得分越高表示倾向越强。本文档所引来源仅报告各题项因子载荷（.55–.81），未给出具体量表点数，正式使用前需核对原文的量表格式与计分细节。",
+            "reliability": "无（本文档所引来源未报告 Cronbach's α，仅报告题项因子载荷 .55–.81）"
+          },
+          {
+            "id": "dv_cc_podoshen_2011",
+            "reference": "Podoshen, J. S., Li, L., & Zhang, J. (2011). Materialism and conspicuous consumption in China: A cross-cultural examination. International Journal of Consumer Studies, 35(1), 17–25. https://doi.org/10.1111/j.1470-6431.2010.00930.x",
+            "researchContent": "中国的物质主义与炫耀性消费：一项跨文化考察。使用 Moschis 的社会动机量表测量炫耀性消费（中美跨文化比较），可视为该量表在中国被试上的应用版本。",
+            "items": [
+              "1. Before purchasing a product, it is important to know what friends think of different brands or products I am considering.（购买产品前，了解朋友如何看待我考虑的不同品牌或产品很重要。）",
+              "2. Before purchasing a certain product, it is important to know what kinds of people buy brands or products I am considering.（购买某产品前，了解哪些人会买我考虑的品牌或产品很重要。）",
+              "3. Before purchasing a product, it is important to know what others think of people who use certain brands or products I am considering.（购买产品前，了解他人如何看待使用某些品牌或产品的人很重要。）",
+              "4. Before purchasing a product, it is important to know what brands or products to buy to make a good impression on others.（购买产品前，了解买什么品牌或产品能给他人留下好印象很重要。）"
+            ],
+            "scoring": "采用 5 点计分，1 = strongly agree 至 5 = strongly disagree（原文 Table 3/5 表头），即分数越低表示炫耀性消费越强。分析时需先反向计分（6 − 原始分）使高分对应高炫耀性消费，再取 4 题均值。",
+            "reliability": "合并样本 Cronbach's α = 0.857；美国样本 α = 0.844，中国样本 α = 0.726；平均题间相关 = 0.60"
+          },
+          {
+            "id": "dv_cc_chenxu_2009",
+            "reference": "陈旭（2009）. 虚荣特性、金钱态度对大学生炫耀性消费倾向影响的实证研究.（本文档未给出期刊/学位授予单位、卷期与页码，正式引用前需补全出处信息）",
+            "researchContent": "改编自 Marcoux 等（1995）的炫耀性消费量表与郑玉香、袁少锋、高英（2008）的中国化改编版，测量中国大学生的炫耀性消费倾向，含社会认同需求、从众心态、身份象征、形象需求 4 个维度共 13 题。研究1（study1）因变量所用即此量表。",
+            "items": [
+              "【社会认同需求】1. 人们购买名牌为了给别人留下好印象",
+              "【社会认同需求】2. 使用名牌商品的人看起来比别人更具有吸引力",
+              "【社会认同需求】3. 使用名牌商品让人在朋友和同事中将更有人缘",
+              "【社会认同需求】4. 使用名牌商品会得到他人的尊重",
+              "【从众心态】5. 人们希望拥有他们的朋友和同事所拥有的名牌商品",
+              "【从众心态】6. 人们希望拥有他们的邻居所拥有的名牌商品",
+              "【从众心态】7. 人们希望拥有大众都拥有的名牌商品",
+              "【身份象征】8. 名牌商品是社会地位的象征",
+              "【身份象征】9. 名牌商品意味着财富",
+              "【身份象征】10. 使用名牌商品可以提升自己的身价",
+              "【形象需求】11. 人们购买名牌产品是为了改进自我形象",
+              "【形象需求】12. 人们购买名牌是为了变得时尚",
+              "【形象需求】13. 使用名牌商品的人看起来更像一个成功人士"
+            ],
+            "scoring": "采用 5 点李克特量表（1 = 完全不同意，2 = 不同意，3 = 不同意也不反对，4 = 同意，5 = 完全同意）。全部正向计分，无反向题；取 13 题均值作为炫耀性消费倾向得分，得分越高表示倾向越强。注意：本研究1（study1）正文拟采用 7 点计分，正式实施前需与本量表原始 5 点格式核对统一。",
+            "reliability": "Cronbach's α = .803"
+          },
+          {
+            "id": "dv_cc_zheng_yuxiang_16",
+            "reference": "郑玉香、袁少锋、高英（2008）. 基于 SMC 的炫耀性消费行为影响因素实证研究.（本文档未给出期刊、卷期与页码，正式引用前需补全出处信息）",
+            "researchContent": "基于 SMC 的炫耀性消费形成机制（中国样本）。从商品的象征意义（Marcoux）、地位消费的倾向（Eastman）、参照群体的影响（Bearde）、炫耀性消费行为的倾向（Marcoux）四个维度选取 16 个题目，测量中国消费者的炫耀性消费。题项后括号内为原文报告的所属成分与因子载荷。",
+            "items": [
+              "1. 我对显示社会地位的新产品很感兴趣（成分1 消费者的地位倾向，载荷 .751）",
+              "2. 如果一件商品能显示社会地位，我将愿意为它支付更高的价格（成分1 消费者的地位倾向，载荷 .751）",
+              "3. 我认为一件商品代表的社会地位与我无关（成分1 消费者的地位倾向，载荷 -.729，反向计分）",
+              "4. 我有时愿意购买一件商品，仅仅是因为它代表了一定的社会地位（成分1 消费者的地位倾向，载荷 .690）",
+              "5. 如果一件商品有如下吸引力（高档、罕见、外国品牌等），那么这种商品对我来说是更有价值的（成分1 消费者的地位倾向，载荷 .623）",
+              "6. 对名牌产品的消费会使人们在朋友和同事中更受欢迎（成分2 炫耀性消费倾向，载荷 .756）",
+              "7. 消费名牌产品会赢得别人的尊重（成分2 炫耀性消费倾向，载荷 .731）",
+              "8. 如果人们（经济上）承受得起的话，他们将只购买名牌产品（成分2 炫耀性消费倾向，载荷 .657）",
+              "9. 人们购买名牌产品的动机是仅仅因为其比普通产品价格更昂贵（成分2 炫耀性消费倾向，载荷 .570）",
+              "10. 消费名牌产品的人比其他人更有吸引力（成分2 炫耀性消费倾向，载荷 .567）",
+              "11. 名牌产品是成功和声望的象征（成分3 商品的象征意义，载荷 .830）",
+              "12. 名牌产品是社会地位的象征（成分3 商品的象征意义，载荷 .796）",
+              "13. 名牌产品意味着财富（成分3 商品的象征意义，载荷 .722）",
+              "14. 人们希望拥有他们的邻居拥有的名牌产品（成分4 参照群体的影响，载荷 .771）",
+              "15. 人们希望拥有他们的朋友和同事所拥有的名牌产品（成分4 参照群体的影响，载荷 .768）",
+              "16. 人们希望拥有大众都拥有的名牌产品（成分4 参照群体的影响，载荷 .740）"
+            ],
+            "scoring": "采用 7 点 Likert 打分（1 = 非常不同意，7 = 非常同意）。第 3 题“我认为一件商品代表的社会地位与我无关”载荷为 -.729，为反向计分题，需先反向转换。按 4 个成分分别取均值：消费者的地位倾向（5 题）、炫耀性消费倾向（5 题）、商品的象征意义（3 题）、参照群体的影响（3 题）。",
+            "reliability": "无（本文档所引来源未报告 Cronbach's α，仅报告 4 个成分的因子载荷 .567–.830）"
+          },
+          {
+            "id": "dv_cc_occass_mcewen_2004",
+            "reference": "O’Cass, A., & McEwen, H. (2004). Exploring consumer status and conspicuous consumption. Journal of Consumer Behaviour, 4(1), 25–39. https://doi.org/10.1002/cb.155",
+            "researchContent": "该研究对“地位消费”与“炫耀性消费”进行联合因子分析（CFA），证实两者是独立且相互影响的构念。原量表共 12 个题项（每个维度 6 题）：炫耀性消费（CC）关注“公开展示”与“引人注目”，地位消费（SC）关注“阶层提升”与“社会威望”。",
+            "items": [
+              "CC1. I would buy a product because of what it says about me to others.（我会购买某种产品，是因为它能向他人传达关于我的信息。）",
+              "CC2. I choose products because they are visible to others when used.（我选择这些产品，是因为它们在使用时很容易被别人看到。）",
+              "CC3. I like to own items that impress others.（我喜欢拥有能给他人留下深刻印象的物品。）",
+              "CC4. I buy products that draw attention to myself.（我购买那些能让自己成为目光焦点的产品。）",
+              "CC5. I like to know that others notice the products I buy.（我喜欢知道别人正在关注我所购买的产品。）",
+              "CC6. The products I buy tell others something about me.（我购买的产品能向他人展示我的某些特质。）",
+              "SC1. I would buy a product because it has status.（我会购买某种产品，是因为它带有某种社会地位的象征。）",
+              "SC2. I am interested in new products with status.（我对那些能够象征身份地位的新产品很感兴趣。）",
+              "SC3. I would pay more for a product if it had status.（如果某种产品能象征地位，我愿意为此支付更高的价格。）",
+              "SC4. The status of a product is important to me.（产品的“身份地位象征”对我来说非常重要。）",
+              "SC5. I think more highly of people who buy status products.（我会对那些购买“地位象征产品”的人高看一眼。）",
+              "SC6. I choose products that have a social prestige.（我会选择那些具有社会威望/声誉的产品。）"
+            ],
+            "scoring": "采用 5 点或 7 点李克特量表（1 = 完全不同意，5/7 = 完全同意），12 题均为正向计分、无反向题。按维度分别取均值：炫耀性消费 CC（6 题）、地位消费 SC（6 题）；亦可用 12 题总均分作为总体炫耀性消费倾向得分，得分越高倾向越强。",
+            "reliability": "炫耀性消费（CC）Cronbach's α = 0.87；地位消费（SC）Cronbach's α = 0.85"
+          },
+          {
+            "id": "dv_cc_marcoux_1997",
+            "reference": "Marcoux, J.-S., Filiatrault, P., & Chéron, E. (1997). The attitudes underlying preferences of young urban educated Polish consumers towards products made in Western countries. Journal of International Consumer Marketing, 9(4), 5–29. https://doi.org/10.1300/J046v09n04_02",
+            "researchContent": "炫耀性消费意义量表（Meanings of Conspicuous Consumption Scale, CCO），从 5 个维度测量炫耀性消费的意义：物质享乐主义、归属或脱离某群体的交流、社会地位展示、人际关系中介、炫耀摆阔，共 18 题。原文题项以“人们购买西方产品……”的第三人称一般化表述呈现。",
+            "items": [
+              "【物质享乐主义】1. People buy Western products to enhance their image.（人们购买西方产品是为了提升自己的形象。）",
+              "【物质享乐主义】2. People buy Western products for uniqueness, to have products others do not own.（人们购买西方产品是为了追求独特性，拥有别人没有的东西。）",
+              "【物质享乐主义】3. People buy Western products to be fashionable.（人们购买西方产品是为了变得时尚。）",
+              "【物质享乐主义】4. By using Western products people intend to please others.（人们使用西方产品是想取悦他人。）",
+              "【物质享乐主义】5. People using Western products feel more important.（使用西方产品的人会觉得自己更有分量、更重要。）",
+              "【归属/脱离群体的交流】6. People want to have Western products owned by their friends and colleagues.（人们希望拥有朋友和同事所拥有的西方产品。）",
+              "【归属/脱离群体的交流】7. People want to have Western products owned by their neighbors.（人们希望拥有邻居所拥有的西方产品。）",
+              "【归属/脱离群体的交流】8. People want Western products owned by everybody.（人们希望拥有大家都拥有的西方产品。）",
+              "【归属/脱离群体的交流】9. People buy Western products to show off, to be noted.（人们购买西方产品是为了炫耀、引人注意。）",
+              "【社会地位展示】10. Western products are social status symbols.（西方产品是社会地位的象征。）",
+              "【社会地位展示】11. Western products are a symbol of success and prestige.（西方产品是成功与声望的象征。）",
+              "【社会地位展示】12. Western products mean wealth.（西方产品意味着财富。）",
+              "【人际关系中介】13. People using Western products increase their own value from the point of view of others.（使用西方产品能提升别人对自己的评价，即提升自身身价。）",
+              "【人际关系中介】14. People using Western products are more attractive than others.（使用西方产品的人比其他人更有吸引力。）",
+              "【人际关系中介】15. Use of Western products allows popularity among friends and colleagues.（使用西方产品能让人在朋友和同事中更受欢迎。）",
+              "【人际关系中介】16. Using Western products induces respect from others.（使用西方产品能赢得他人的尊重。）",
+              "【炫耀摆阔】17. If people could afford it, only Western products would be bought.（如果人们在经济上承受得起，他们就只会买西方产品。）",
+              "【炫耀摆阔】18. People buy Western products only because they are more expensive than Polish products.（人们购买西方产品，仅仅因为它的价格比波兰产品更贵。）"
+            ],
+            "scoring": "采用李克特量表、全部正向计分，按 5 个维度分别取均值，或以各维度作为炫耀性消费的 5 个侧面分别分析。用于中国被试时需作文化适配：将“西方产品”替换为“名牌产品/进口产品”等表述（后续中文改编版如郑玉香等、陈旭均采用此做法）。",
+            "reliability": "无（本文档所引来源未报告 Cronbach's α）"
+          },
+          {
+            "id": "dv_cc_moschis_1981",
+            "reference": "Moschis, G. P. (1981). Patterns of consumer learning. Journal of the Academy of Marketing Science, 9(2), 110–126.",
+            "researchContent": "炫耀性消费的社会动机量表（原始版本）。Moschis 将其定义为“关于炫耀性消费的重要性以及通过炫耀性消费进行自我表达的认知取向”，共 4 题，测量购买前了解他人（朋友、他人对使用者的看法、如何留下好印象）看法的重视程度。",
+            "items": [
+              "1. Before purchasing a product, it is important to know what friends think of different brands or products I am considering.（购买产品前，了解朋友如何看待我考虑的不同品牌或产品很重要。）",
+              "2. Before purchasing a certain product, it is important to know what kinds of people buy brands or products I am considering.（购买某产品前，了解哪些人会买我考虑的品牌或产品很重要。）",
+              "3. Before purchasing a product, it is important to know what others think of people who use certain brands or products I am considering.（购买产品前，了解他人如何看待使用某些品牌或产品的人很重要。）",
+              "4. Before purchasing a product, it is important to know what brands or products to buy to make a good impression on others.（购买产品前，了解买什么品牌或产品能给他人留下好印象很重要。）"
+            ],
+            "scoring": "4 题均为正向计分（越重视购买前了解他人看法，炫耀性消费的社会动机越强），取均值。本文档所引来源未给出具体量表点数与计分细则，正式使用前需核对原文。",
+            "reliability": "无（本文档所引来源未报告 Cronbach's α）"
+          }
+        ],
+        "behavioral": [
+          {
+            "id": "dv_cc_lu_2024",
+            "reference": "Lu, Y., Zhao, T., Song, S., & Song, W. (2024). Can self-presentation on social media increase individuals’ conspicuous consumption tendency? A mixed-method empirical study on WeChat in China. Journal of Theoretical and Applied Electronic Commerce Research, 19(2), 1206–1221. https://doi.org/10.3390/jtaer19020062",
+            "researchContent": "中文题名《社交媒体自我呈现会提高个体的炫耀性消费倾向吗？基于中国微信的混合方法实证研究》。研究内容：微信朋友圈的自我呈现会提高炫耀性消费倾向，中介是社会比较倾向，调节是社交媒体使用强度（情境测量见研究 2）。",
+            "procedure": [
+              "第 1 步（材料）：两顶 Nike 帽子的图片，只有 Nike logo 大小不同；配一次真实抽奖（抽 10 人送帽）。",
+              "第 2 步（指导语）：“in appreciation for their participation, we would give a Nike hat to 10 lucky people randomly selected from the participants, and they could choose between the pictures of two hats… If a participant won the lottery, we would mail them the chosen hat.”（为感谢参与，将随机抽 10 人赠送一顶帽子；请从这两顶中选一顶；中奖即按你选的款式寄出。）",
+              "第 3 步（过程）：N = 180 名中国大学生 → 随机分组（自我呈现组在朋友圈发带自己照片的状态；控制组转发一篇公众号文章）→ 隔 24 小时再发一次问卷 → 在第二份问卷里做帽子二选一。",
+              "第 4 步（因变量）：大 logo = 1、小 logo = 0（73.3% vs 57.8%，χ² = 4.82，p = .028），即是否选择高显著性（炫耀性）商品。"
+            ]
+          },
+          {
+            "id": "dv_cc_liuyining_2024",
+            "reference": "刘已宁、徐瑄（2024）. 参照群体与财富标签对青年女性炫耀性消费的影响. 《现代商业》, (11), 7–11.",
+            "researchContent": "研究内容：财富来源带来的情绪标签（积极/消极）与参照群体影响类型（信息性/规范性）如何共同影响青年女性的炫耀性消费，2×2 组间实验（情境测量见研究 2）。",
+            "procedure": [
+              "第 1 步（材料）：财富来源情境——积极标签为“彩票中奖 5 万元”，消极标签为“意外事故获保险赔偿金 5 万元”（预试用情绪性质量表选出：+6.24 vs −2.32）；参照群体材料——信息性组看购物 App 上关于 Chanel 包袋的 3 条评价，规范性组看朋友圈 11 个好友点赞并强调“您的下列微信好友觉得很赞”；商品为 Chanel 经典款包袋。",
+              "第 2 步（指导语）：读完情境后，用 Sivanathan 等的 3 个问项、7 点李克特报告愿意为这只包支付的最高金额（原文未给出这 3 题的逐字措辞，正式使用前需核对原文或自行改写并预试）。",
+              "第 3 步（过程）：呈现财富来源情境 → 测情绪 → 呈现参照群体材料 → 测参照群体影响（4 题 / 8 题，7 点）→ 测炫耀性消费（3 题 7 点金额）→ 填人口学信息。",
+              "第 4 步（因变量）：3 题均值（7 点分段金额，N = 148 名青年女性），得分越高表示愿为炫耀性商品支付的金额越高。"
+            ]
+          },
+          {
+            "id": "dv_cc_park_2023",
+            "reference": "Park, Kim, & Park (2023). How power distance belief, self-construal, and relationship norms impact conspicuous consumption. Journal of Retailing and Consumer Services, 75, 103518.",
+            "researchContent": "中文题名《权力距离信念、自我建构与关系规范如何影响炫耀性消费》。研究内容：权力距离信念高的人更爱炫耀，中介是地位需求；自我建构（独立/互依）与关系规范起调节作用（情境测量见研究 1–3）。",
+            "procedure": [
+              "第 1 步（材料）：三对并排的高端商品——两顶 Burberry 帽、两只 Louis Vuitton 钱包、两条 Gucci 腰带，均取官网在售品，每对只差 logo 显眼程度；研究 3 换成两件只差 logo 大小的 Gucci T 恤。",
+              "第 2 步（指导语）：“imagine themselves shopping for some high-end fashion items”（请想象你正在选购高端时尚商品）；告知被试“每组两件商品价格、尺寸、材质完全相同”；“rate which of the two options was more attractive and which they were more likely to buy (1 = definitely option A; 9 = definitely option B)”（哪件更有吸引力、你更可能买哪件？1 = 肯定选 A，9 = 肯定选 B）。",
+              "第 3 步（过程）：前置操纵 → 呈现三对商品，左右位置在被试间平衡 → 每题答两个问项（吸引力、购买意愿）→ 反向计分，使高分 = 更偏炫耀。",
+              "第 4 步（因变量）：两问项均值（α = .969 / .988 / .987），得分越高表示越偏炫耀性选择。",
+              "第 5 步（预试）：99 人评“哪一只更吸睛”，α = .918（帽）/ .962（钱包）/ .922（腰带）；研究 3 的 T 恤另招 100 人，α = .855。"
+            ]
+          },
+          {
+            "id": "dv_cc_wang_2023",
+            "reference": "Wang, Zhu, Zhao, & Song (2023). The link between self-uncertainty and conspicuous consumption: Tolerance of uncertainty as a moderator. Frontiers in Psychology, 13, 1066938.",
+            "researchContent": "中文题名《自我不确定性与炫耀性消费的关系：不确定性容忍度的调节作用》。研究内容：自我不确定性（道德、认知两类）会提高炫耀性消费；对不确定性容忍度高的人，这一效应被削弱。实验 3 同时用量表与情境题两种测法（情境测量见实验 2，实验 3 改为二选一）。",
+            "procedure": [
+              "第 1 步（材料）：一段文字情境——你要买一套西装去参加聚会。",
+              "第 2 步（指导语）：“What price point suit do you think will get you more attention?” 与 “At what price point do you think a suit would enhance your image in the eyes of others? (1 = 'Prefer a $500 suit,' 7 = 'Prefer a 1,500 suit')”（什么价位的西装更能让别人注意到你、更能提升你在别人眼里的形象？1 = 更愿意选 500 美元，7 = 更愿意选 1500 美元）。",
+              "第 3 步（过程）：常识判断题（实验组看到与常识相反的图片，观察 10 秒）→ 操纵检验，未通过者剔除 → 读西装情境 → 答两道价位题。",
+              "第 4 步（因变量）：1–7 价位偏好得分（得分越高越偏高价炫耀款）；实验 3 为二值（在两套价格方案中选一套）。"
+            ]
+          },
+          {
+            "id": "dv_cc_kemper_2022",
+            "reference": "Kemper et al. (2022). Sharing luxury possessions in the age of digital experience economy: Consumption type and psychological entitlement. Journal of Business Research, 142, 875–885.",
+            "researchContent": "中文题名《数字体验经济时代分享奢侈物品：消费类型与心理特权的作用》。研究内容：奢侈消费之后是否愿意发到社交媒体，取决于买的是“物品”还是“体验”，并受心理特权调节——此处炫耀性消费是自变量的情境操纵，因变量是分享意愿（研究 1、2）。",
+            "procedure": [
+              "第 1 步（材料）：研究 1 无实物，让被试回忆并描述一次购买（约 500 美元或 50 美元；物品或体验）；研究 2 用一段 Prada 鞋的广告文案。",
+              "第 2 步（指导语）：“how likely they were to share the purchase on Facebook using a 7-point scale (1 = very unlikely, 7 = very likely)”（你有多大可能把这次购买分享到 Facebook？1 = 非常不可能，7 = 非常可能）；另用 6 个词评这笔购买（稀有、独特、专属、奢侈、显眼等，α = .87）作操纵检查。",
+              "第 3 步（过程）：随机分 4 组（奢侈/非奢侈 × 物品/体验）→ 用 3–5 句描述这次购买 → 填分享意愿 → 填奢侈品性检查、心理特权、人口学信息。",
+              "第 4 步（因变量）：分享意愿 1–7 单题（N = 289），得分越高表示越愿意向他人公开展示该次消费。"
+            ]
+          },
+          {
+            "id": "dv_cc_dingying_2021",
+            "reference": "丁瑛、杨晨（2021）. 社会拥挤如何影响炫耀性消费：基于自我表达需求的中介作用. 《南开管理评论》, 24(4), 161–171.",
+            "researchContent": "研究内容：50 个国家二手数据 + 4 个实验室实验，说明社会拥挤会提高炫耀性消费，中介是自我表达需求，边界是群体类型（外群体时效应更强）（情境测量见实验 1–4）。",
+            "procedure": [
+              "第 1 步（材料）：两件同品牌、同材质、同颜色的 T 恤，一件大标志、一件小标志（实验 1、2、4）；实验 3 换成两顶颜色、风格、设计一致的鸭舌帽，同样只差标志大小。拥挤用“二三十人 / 仅两人”的购物空间图片操纵（实验 2 用真实拥挤：10 人以上 vs 2–3 人同室）。",
+              "第 2 步（指导语）：实验 1“如果你要在两款 T 恤中购买一款，你更有可能选择哪一款？”（0 = 非炫耀性产品，1 = 炫耀性产品）；实验 2–4 用 8 点两极量表（1 = 非常偏好非炫耀性产品，8 = 非常偏好炫耀性产品），实验 3 另加一题“吸引力”。",
+              "第 3 步（过程）：图片描述任务（看满 30 秒，描述所处位置、周围人数、感受）→ 拥挤感操纵检验（1–7）→ 进入“看似无关的产品偏好调查”，看两款商品作答 → 填人口学信息。",
+              "第 4 步（因变量）：实验 1 为 0/1 二值（χ² = 4.422，p = .035，53.33% vs 32.00%）；实验 2–4 为 8 点偏好评分（ANOVA）。"
+            ]
+          },
+          {
+            "id": "dv_cc_xinzhiyong_2021",
+            "reference": "辛志勇、杜晓鹏、李冰月（2021）. 敬则不逐物——敬畏对炫耀性消费倾向的抑制：小我的中介作用. 《心理科学》, 44(3), 642–649.",
+            "researchContent": "研究内容：敬畏提升“小我”（降低对自身目标重要性的评估），从而抑制炫耀性消费倾向，且不影响非炫耀性消费（研究 1b、3 用预算分配，研究 2 用购买意愿）。",
+            "procedure": [
+              "第 1 步（材料）：八种商品——炫耀性四种（高档品牌服装、著名瑞士品牌手表、奢侈品钱包、高档品牌香水），非炫耀性四种（结实耐用的家居用品、质量放心的床上用品、普通日用品、普通食品饮料）。",
+              "第 2 步（指导语，研究 1b、3）：“你意外获得了一张价值 2000 元的商品购物券，仅限当天使用，只能购买八种商品中的一种或多种，花费上限 2000 元，未用完的金额作废。”",
+              "第 3 步（过程）：情绪操纵（书写敬畏经历；研究 3 看 5 分钟自然景观视频）+ 操纵检验 → 呈现八种商品，逐项填写想花的金额 → 填人口学信息。",
+              "第 4 步（因变量）：花在四种炫耀性商品上的金额之和（723.17 元 vs 1029.27 元，t(80) = -2.05，p < .05，d = .45）；得分越高表示炫耀性消费倾向越强。",
+              "第 5 步（研究 2 的改法）：指导语“此时此刻，假设你手里有一笔钱，你在多大程度上愿意购买以下六类产品”（1 = 完全不愿意，7 = 完全愿意），六种商品与上面一一对应（服饰、包具、美妆各一对）；先让被试评每种商品的炫耀性程度（1–7，炫耀性 5.54 vs 非炫耀性 2.76）作操纵检查。"
+            ]
+          },
+          {
+            "id": "dv_cc_koo_2019",
+            "reference": "Koo, J., & Im, H. (2019). Going up or down? Effects of power deprivation on luxury consumption. Journal of Retailing and Consumer Services, 51, 443–449.",
+            "researchContent": "中文题名《向上还是向下？权力剥夺对奢侈品消费的影响》。研究内容：感到权力被剥夺的人更偏好奢侈品牌、更喜欢大而多的品牌 logo，以此恢复地位感。3 个实验（情境测量见研究 2）。",
+            "procedure": [
+              "第 1 步（材料）：一张衬衫线稿、一张手袋线稿（都没有 logo）；笔；品牌为 Louis Vuitton（预试确认是大学生最熟悉的奢侈品牌）。",
+              "第 2 步（指导语）：“We are interested in consumer's preference, specifically when they are buying a luxury product.” … “How big do you want the logo is on the clothing (handbag)?”（我们关心消费者买奢侈品时的偏好。请想象你正在买一件高档服装（一只高档手袋）：你希望上面的 logo 有多大、放在哪里？请直接在图上画出 LV 的 logo。）",
+              "第 3 步（过程）：权力感操纵（读“你是老板 / 你是员工”材料）+ 操纵检验 → 发线稿，让被试自己在图上画 logo → 收卷后由研究者测量。",
+              "第 4 步（因变量）：logo 宽度（厘米）、logo 个数、logo 总面积（宽 × 高 × 个数），数值越大表示越偏好炫耀性的品牌显著性。"
+            ]
+          },
+          {
+            "id": "dv_cc_dommer_2013",
+            "reference": "Loughran Dommer, S., Swaminathan, V., & Ahluwalia, R. (2013). Using differentiated brands to deflect exclusion and protect inclusion: The moderating role of self-esteem on attachment to differentiated brands. Journal of Consumer Research, 40(4).",
+            "researchContent": "中文题名《用差异化品牌转移排斥、保护归属：自尊在差异化品牌依附中的调节作用》。研究内容：被社会接纳或排斥时，低自尊者如何借助“纵向品牌”（Armani Exchange）维护自己的独特性；研究 5 用同一件衬衫的公开版与私密版测炫耀性展示。",
+            "procedure": [
+              "第 1 步（材料）：三个品牌的衬衫（American Eagle = 内群体品牌，Armani Exchange = 纵向品牌，Hollister = 横向品牌），每个品牌两件、共 6 件：公开版 logo 印在左胸上方，私密版 logo 只在后领内侧标签上（外人看不到）。",
+              "第 2 步（指导语）：“Assume you are a member of your school's chapter of Phi Beta Lambda… You are about to go to a meeting… You are choosing between three different brands of shirts. Which brand of shirt would you be most likely to wear to the meeting?”（假设你是某学生商业组织的成员，马上去开会，正在想穿什么；现在有三个品牌的衬衫可选，你最可能穿哪个品牌去开会？）",
+              "第 3 步（过程）：测特质自尊 → 随机分组（社会接纳 vs 控制）→ 读会议情境，先在三个品牌里选一个 → 再看 6 件衬衫，按“穿去开会的可能性”排序 → 填人口学信息。",
+              "第 4 步（因变量）：选中的品牌（二值）+ 6 件衬衫的排序位次（ordered logit，并用 ANCOVA 互验）。",
+              "第 5 步（预试）：29 人评“这是公开商品/私密商品”——胸前 logo 版 6.60 vs 1.60；内标版 3.00 vs 4.93。"
+            ]
+          },
+          {
+            "id": "dv_cc_ordabayeva_2011",
+            "reference": "Ordabayeva, N., & Chandon, P. (2011). Getting ahead of the Joneses: When equality increases conspicuous consumption among bottom-tier consumers. Journal of Consumer Research, 38(1), 27–41.",
+            "researchContent": "中文题名《赶超邻居：收入更平等时底层消费者的炫耀性消费为何增加》。研究内容：收入分配的平等程度会改变底层消费者对“花钱还是存钱”的判断——越平等，升一档带来的位置提升越大，炫耀性消费越多。5 个实验均用 9 点两极判断测量。",
+            "procedure": [
+              "第 1 步（研究 1，花园）：材料是一份带饼图的社区通讯，显示小区里种花家庭的分布；情境为一位没种花的房主考虑花 45 欧元买三丛花；问题“1 = 'definitely save' … 9 = 'definitely spend'”（1 = 肯定存钱，9 = 肯定花掉），另加“她会有多嫉妒邻居的花园”（1–9）。",
+              "第 2 步（研究 2，婚礼礼物）：材料是线上婚礼礼物清单；情境为你已决定买 40 欧元香水，发现多数人送得更贵；问题 9 点，“anchored at 1 (€40 perfume) and 9 (€90 vase)”（1 = 40 欧香水，9 = 90 欧花瓶）。",
+              "第 3 步（研究 3，同一场景高低版）：高炫耀 = 前院种花丛、低炫耀 = 后院种松树（预试 4.1 vs 3.3）；高炫耀 = 19 吋电视换 32 吋、低炫耀 = 换同尺寸但品质更好的；问题仍为 9 点“存钱 vs 花钱”。",
+              "第 4 步（研究 4A/4B，请同事吃饭）：两家餐厅——“时髦亚洲餐厅 45 欧元套餐”（提升地位）vs“传统小馆 15 欧元套餐”（中性，预试 6.7 vs 4.2）；问题 9 点（1 = 传统小馆，9 = 时髦餐厅）。",
+              "第 5 步（因变量）：9 点计分，得分越接近“花钱/炫耀端”表示炫耀性消费越强。注意研究 1 与研究 3 问的是“情境中那个人会怎么做”，不是被试自己。"
+            ]
+          },
+          {
+            "id": "dv_cc_han_2010",
+            "reference": "Han, Y. J., Nunes, J. C., & Drèze, X. (2010). Signaling status with luxury goods: The role of brand prominence. Journal of Marketing Research, 47(1), 15–30.",
+            "researchContent": "中文题名《用奢侈品传递地位信号：品牌显著性的作用》。研究内容：用 Gucci、Louis Vuitton 手袋、奔驰车型和 LV 男鞋的在售数据说明“越不显眼的包越贵”；再按收入与地位需求把消费者分成四类，检验各类人对品牌显著性和仿冒品的偏好（情境测量见研究 4）。",
+            "procedure": [
+              "第 1 步（材料）：三对女式手提包照片。每对一只“响亮”款（大 logo 或满印图案）、一只“安静”款（几乎同款、logo 不显眼），除显著性外款式材质一致，价格差尽量消除。",
+              "第 2 步（指导语）：“respondents were instructed to make their choice assuming either bag could be acquired for the same price.”（请假设这两只包能用相同价格买到，再做选择。）",
+              "第 3 步（过程）：先按收入 + 地位需求（Eastman 1999，5 题）把被试分为四类 → 呈现三对包，逐对二选一“你更愿意买哪一只” → 65 人子样本另答一题：托朋友在国外带一只仿品（别人看不出真假）的可能性（1–7）。",
+              "第 4 步（因变量）：每对 1 = 选响亮款、0 = 选安静款；三对可加总为 0–3，得分越高表示越偏好高显著性（炫耀性）商品。"
+            ]
+          },
+          {
+            "id": "dv_cc_sivanathan_2010",
+            "reference": "Sivanathan, N., & Pettit, N. C. (2010). Protecting the self through consumption: Status goods as affirmational commodities. Journal of Experimental Social Psychology, 46, 564–570.",
+            "researchContent": "中文题名《通过消费保护自我：地位商品作为自我肯定的资源》。研究内容：人在受到自我威胁时，会出更高价购买地位商品，以此修复自我价值；若给了别的自我修复途径，这种溢价就消失（研究 1–3 均为“描述商品地位 → 问愿付多少”）。",
+            "procedure": [
+              "第 1 步（研究 1，照片）：材料是一张专业摄影照片，高地位版描述为“rare, unique, and available for a limited time”（稀有、独特、限时），无地位版为“common, mass-produced, and widely available”（常见、量产、到处买得到）；问题为“the maximum dollar value they would spend to acquire the photograph”（最多愿意花多少美元买下它）；因变量 = 美元金额。",
+              "第 2 步（研究 2，手表）：材料是文字描述，“只被极少数人拥有” vs “很常见、很多人戴”；问题为“the maximum percentage of the retail price they would be willing to pay… from 1 (10%) to 12 (120%)”（最多愿付零售价的百分之多少，1 = 10% … 12 = 120%）；因变量 = 1–12 档。",
+              "第 3 步（研究 3，汽车，网络问卷）：材料是一段“豪华运动轿车”的新车介绍（优雅质感、奢华驾乘、高端性能）；问题为“What is the maximum dollar amount you would be willing to pay to purchase this car?”（最多愿意花多少钱买这辆车），另附地位感知（1–9）与豪车知识（1–9）校验题；因变量 = 美元金额。",
+              "第 4 步（因变量口径）：以被试报出的最高愿付价（金额或零售价百分比档位）作为炫耀性/地位消费的强度指标，愿付价越高表示越愿为地位支付溢价。"
+            ]
+          },
+          {
+            "id": "dv_cc_charles_2009_visible",
+            "reference": "Charles, K. K., Hurst, E., & Roussanov, N. (2009). Conspicuous consumption and race. The Quarterly Journal of Economics, 124(2), 425–467. https://doi.org/10.1162/qjec.2009.124.2.425",
+            "researchContent": "中文题名《炫耀性消费与种族》。测量思路：不使用量表，而用真实消费支出测量炫耀性消费，将炫耀性消费操作化为“可见性消费”（visible consumption），即在匿名社会互动中容易被他人看到、且能跨场景携带的支出。属于二手档案数据测量，不需要被试进入实验。",
+            "procedure": [
+              "第 1 步（定品类）：对 320 名大学生做匿名在线预调查，询问“你需要与某人多近距离的接触，才能判断他在这类支出上的花费是否高于平均水平？”，据此选出最容易观察的类别——服装/珠宝、个人护理、汽车（不含维修保养）。住房也被判定为可见，但因可能混入住房市场歧视，主结果中排除。",
+              "第 2 步（取数据）：使用 1986–2002 年美国消费者支出调查（CEX），把 47 个原始支出类合并为 15 类，最终样本 49,363 户。",
+              "第 3 步（算指标）：三类可见性支出加总 ÷ 该户参与调查的季度数 = 每季度平均可见性支出，取对数作因变量。对应原始类别——服装/珠宝：服装与鞋（029）、服装服务（030）、珠宝与手表（031）；个人护理：盥洗用品与化妆品（032）、理发店/美容院/健身俱乐部（033）；汽车：新车与二手车净支出（052）（主口径，扩展口径另含维修、车贷本金等）。",
+              "第 4 步（跑回归）：ln(可见性支出) 对种族虚拟变量回归；以 ln(总支出) 代理永久收入并用收入变量工具变量化，控制人口学变量与年份固定效应；再加入“同州 × 同种族”的平均收入（CPS 估计的成年男性劳动收入）作为参照群体变量，并做证伪检验（他群体收入、非可见性支出应无效应）。",
+              "关键结果：可见性支出约占总支出 12%；控制永久收入后黑人 +26%、西语裔 +23%（约 $1,900/年）；对总支出弹性 1.5（属奢侈品）；本州同族平均收入翻倍时，可见性支出下降约 60%。",
+              "两点注意：① 该测量是单一客观支出指标，无题项、不报告 Cronbach's α；② 品类清单具时代与文化依赖，不能直接套用于中国样本，需重做可见性预调查。"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

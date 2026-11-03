@@ -1,0 +1,4 @@
+﻿paragraphs checked: 170 | missing: 3
+  MISSING para 16 :: 哭具体测量题项：
+  MISSING para 93 :: 引用的文献：Consumer Xenocentrism and Well-Being: Conspicuous Consumption Orientation, Brand Addiction, and Self-Esteem
+  MISSING para 98 :: 测量炫耀性消费倾向题项(Cronbach's α = 0.908)：

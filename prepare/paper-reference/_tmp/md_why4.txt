@@ -1,0 +1,24 @@
+﻿======================================================================
+ordinal 16
+par.text   : '哭具体测量题项：'
+p.runs     : [('哭具体测量题项：', False, False)]
+tokenize   : [('t', '哭具体测量题项：', False, False)]
+paragraph_md: '哭具体测量题项：'
+======================================================================
+ordinal 83
+par.text   : 'Use of Western products allows popularity among friends and colleagues.'
+p.runs     : [('Use of Western products allows popularity among friends and colleagues.', None, False)]
+tokenize   : [('t', 'Use of Western products allows popularity among friends and colleagues.', False, False)]
+paragraph_md: 'Use of Western products allows popularity among friends and colleagues.'
+======================================================================
+ordinal 93
+par.text   : '引用的文献：Consumer Xenocentrism and Well-Being: Conspicuous Consumption Orientation, Brand Addiction, and Self-Esteem\xa0\xa0'
+p.runs     : [('引用的文献：Consumer Xenocentrism and Well-Being: Conspicuous Consumption Orientation, Brand Addiction, and Self-Esteem', None, None), ('\xa0', None, None), ('\xa0', None, None)]
+tokenize   : [('t', '引用的文献：Consumer Xenocentrism and Well-Being: Conspicuous Consumption Orientation, Brand Addiction, and Self-Esteem  ', False, False)]
+paragraph_md: '引用的文献：Consumer Xenocentrism and Well-Being: Conspicuous Consumption Orientation, Brand Addiction, and Self-Esteem'
+======================================================================
+ordinal 98
+par.text   : "测量炫耀性消费倾向题项(Cronbach's α = 0.908)："
+p.runs     : [('测量', None, None), ('炫耀性消费倾向', None, None), ('题项(', None, None), ("Cronbach's ", None, None), ('α = 0.908', None, None), (')：', None, None)]
+tokenize   : [('t', "测量炫耀性消费倾向题项(Cronbach's α = 0.908)：", False, False)]
+paragraph_md: "测量炫耀性消费倾向题项(Cronbach's α = 0.908)："
